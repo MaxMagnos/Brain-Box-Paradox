@@ -56,7 +56,7 @@ public class GrabHandler : MonoBehaviour
         Debug.Log("Attempting to Grab");
         if (Physics.Raycast(ray, out hit, grabRange))
         {
-            Instantiate(HitDebugPoint, hit.point, Quaternion.identity);
+            //Instantiate(HitDebugPoint, hit.point, Quaternion.identity);   //Instantiate a HitDebugPoint at Raycast-Hit position to visualize it
             Grabable grabable = hit.collider.gameObject.GetComponent<Grabable>();
             if (grabable != null)
             {
