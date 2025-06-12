@@ -2106,7 +2106,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -2123,11 +2123,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e69678819b675148b7b4463babce47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 1279363821}
+  mainCamera: {fileID: 0}
   HitDebugPoint: {fileID: 5578232419008314223, guid: fa2b5c2f75ae6034ea11e902869f8523, type: 3}
-  grabbedObject: {fileID: 1369422986}
+  grabbedObject: {fileID: 0}
   grabRange: 200
-  grabbedDistance: 1
+  grabbedDistance: 0.5
   maxDampDistance: 0.5
   dampMinSpeed: 0.2
   dampMaxSpeed: 10
@@ -2200,7 +2200,7 @@ MonoBehaviour:
   flipYMode: 0
   xrRendering: 1
   fullscreenPassthrough: 0
-  allowDynamicResolution: 0
+  allowDynamicResolution: 1
   customRenderingSettings: 0
   invertFaceCulling: 0
   probeLayerMask:
@@ -2308,6 +2308,7 @@ GameObject:
   - component: {fileID: 1369422989}
   - component: {fileID: 1369422988}
   - component: {fileID: 1369422987}
+  - component: {fileID: 1369422993}
   m_Layer: 0
   m_Name: GrabTest
   m_TagString: Untagged
@@ -2444,6 +2445,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1369422993
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369422986}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1580599653
 GameObject:
   m_ObjectHideFlags: 0
