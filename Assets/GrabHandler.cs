@@ -7,8 +7,18 @@ public class GrabHandler : MonoBehaviour
     [SerializeField] private GameObject HitDebugPoint;
     [SerializeField] private GameObject grabbedObject;
 
+    private Vector3 targetPosition;
+
     [Header("Variables to Change")]
-    public float grabDistance;
+    public float grabRange;
+    public float grabbedDistance;
+
+    public float maxDampDistance;
+    public float dampMinSpeed;
+    public float dampMaxSpeed;
+    
+    [Tooltip("Curve of damp-speed for grabbed objects.\n X-Axis: How far away object is from target-position (0 = at target position).\n Y-Axis: speed-multiplier (0 = minSpeed, 1 = maxSpeed")]
+    public AnimationCurve dampCurve;
     
     private void Awake()
     {
@@ -44,7 +54,7 @@ public class GrabHandler : MonoBehaviour
         RaycastHit hit;
 
         Debug.Log("Attempting to Grab");
-        if (Physics.Raycast(ray, out hit, grabDistance))
+        if (Physics.Raycast(ray, out hit, grabRange))
         {
             Instantiate(HitDebugPoint, hit.point, Quaternion.identity);
             Grabable grabable = hit.collider.gameObject.GetComponent<Grabable>();
@@ -59,11 +69,19 @@ public class GrabHandler : MonoBehaviour
         return null;
     }
 
+    /// <summary>
+    /// Moves Rigidbody of grabbed Object towards desired position (look direction).
+    /// Uses Dampening with a variety of factors
+    /// </summary>
     void HandleMove()
     {
-        if (grabbedObject != null)
+        if (grabbedObject)
         {
-            grabbedObject.transform.position = mainCamera.transform.position + mainCamera.transform.forward * 3;
+            targetPosition = mainCamera.transform.position + mainCamera.transform.forward * grabbedDistance;
+            float totalDistance = (targetPosition - grabbedObject.transform.position).magnitude;
+            float moveSpeed = Mathf.Lerp(dampMinSpeed, dampMaxSpeed, dampCurve.Evaluate(totalDistance / maxDampDistance));
+            Vector3 newPosition = Vector3.MoveTowards(grabbedObject.transform.position, targetPosition, Time.deltaTime * moveSpeed);
+            grabbedObject.GetComponent<Rigidbody>().MovePosition(newPosition);
         }
     }
     
@@ -75,7 +93,7 @@ public class GrabHandler : MonoBehaviour
             // Set the color of the Gizmo ray to yellow.
             Gizmos.color = Color.yellow;
             // Draw a line that matches the raycast's path and distance.
-            Gizmos.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * grabDistance);
+            Gizmos.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * grabRange);
         }
     }
 }
