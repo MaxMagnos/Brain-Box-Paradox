@@ -2015,8 +2015,8 @@
     "m_ObjectId": "5885b59cdb7048109c737e4fc55ce237",
     "m_Title": "Noise",
     "m_Position": {
-        "x": -1955.9998779296875,
-        "y": -475.99993896484377
+        "x": -1956.0,
+        "y": -476.0
     }
 }
 
@@ -3572,8 +3572,8 @@
     "m_ObjectId": "a9f60785a14a4ff0997d81aecd36deab",
     "m_Title": "flickering",
     "m_Position": {
-        "x": -2124.999755859375,
-        "y": 203.00015258789063
+        "x": -2125.0,
+        "y": 203.0
     }
 }
 
@@ -4623,8 +4623,8 @@
     "m_ObjectId": "ea524da5c0464275af61787ffd8dff9e",
     "m_Title": "ScanLines",
     "m_Position": {
-        "x": -2124.999755859375,
-        "y": 657.0001220703125
+        "x": -2125.0,
+        "y": 657.0
     }
 }
 
@@ -5038,7 +5038,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Alpha",
     "m_StageCapability": 2,
-    "m_Value": 1.0,
+    "m_Value": 0.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
