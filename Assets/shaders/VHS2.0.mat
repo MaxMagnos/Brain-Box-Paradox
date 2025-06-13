@@ -27,19 +27,15 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: b2b24002e208c4b43858fe8578eb5904, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ENABLE_FOG_ON_TRANSPARENT
-  - _SURFACE_TYPE_TRANSPARENT
-  - _TRANSPARENT_WRITES_MOTION_VEC
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _DOUBLESIDED_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
-    RenderType: Transparent
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -73,7 +69,7 @@ Material:
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
-    - _AlphaDstBlend: 10
+    - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
@@ -83,8 +79,8 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
-    - _DstBlend: 10
-    - _DstBlend2: 10
+    - _DstBlend: 0
+    - _DstBlend2: 0
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
@@ -92,7 +88,7 @@ Material:
     - _NoiseAmount: 200
     - _OpaqueCullMode: 1
     - _PerPixelSorting: 0
-    - _RenderQueueType: 4
+    - _RenderQueueType: 1
     - _ScanLineStrength: 0.8
     - _SrcBlend: 1
     - _StencilRef: 0
@@ -103,21 +99,22 @@ Material:
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskMV: 43
-    - _SurfaceType: 1
+    - _SurfaceType: 0
     - _TransparentBackfaceEnable: 0
-    - _TransparentCullMode: 2
+    - _TransparentCullMode: 1
     - _TransparentDepthPostpassEnable: 0
     - _TransparentDepthPrepassEnable: 0
-    - _TransparentSortPriority: 1
-    - _TransparentWritingMotionVec: 1
-    - _TransparentZWrite: 1
+    - _TransparentSortPriority: 33
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
     - _VerticalLineStrength: 0
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _alpha: 0.73
+    - _alpha: 1
     - _tansperency: 0.57
+    - _texScrolling: 0.1
     m_Colors:
     - _Color: {r: 0.83804107, g: 0.6367924, b: 1, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}

@@ -23,6 +23,9 @@
         },
         {
             "m_Id": "60a6401bde5146058b07b87cefe6a9a7"
+        },
+        {
+            "m_Id": "ff267298595c436ab7976f4e3af52ca1"
         }
     ],
     "m_Keywords": [],
@@ -320,6 +323,9 @@
         },
         {
             "m_Id": "6ba0cf6e5e084d23bd6d52eff706b0a7"
+        },
+        {
+            "m_Id": "c0669eae7640451aae8e837ba5a46d2d"
         }
     ],
     "m_GroupDatas": [
@@ -1354,6 +1360,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "126e7ac682a042e6bf3d0aa7275eab9e"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "c0669eae7640451aae8e837ba5a46d2d"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b63fa797d37e4fa299e71abc43aa5955"
                 },
                 "m_SlotId": 1
             }
@@ -3155,7 +3175,7 @@
     "m_Title": "Noise",
     "m_Position": {
         "x": -2295.0,
-        "y": -1178.0
+        "y": -1177.9998779296875
     }
 }
 
@@ -5613,7 +5633,7 @@
     "m_Title": "Noise",
     "m_Position": {
         "x": -2303.0,
-        "y": -487.0
+        "y": -486.9999694824219
     }
 }
 
@@ -6270,6 +6290,21 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "60f9a191c1364cfea5b14aa7dd119acb",
+    "m_Id": 0,
+    "m_DisplayName": "texScrolling",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -7320,7 +7355,7 @@
     "m_Title": "verticalLine",
     "m_Position": {
         "x": -2424.0,
-        "y": -2246.0
+        "y": -2245.999755859375
     }
 }
 
@@ -7765,6 +7800,9 @@
         },
         {
             "m_Id": "60a6401bde5146058b07b87cefe6a9a7"
+        },
+        {
+            "m_Id": "ff267298595c436ab7976f4e3af52ca1"
         }
     ]
 }
@@ -8200,10 +8238,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 765.0000610351563,
-            "y": -162.99993896484376,
-            "width": 207.9998779296875,
-            "height": 302.0
+            "x": 843.0000610351563,
+            "y": -129.99996948242188,
+            "width": 208.00006103515626,
+            "height": 302.00006103515627
         }
     },
     "m_Slots": [
@@ -9761,7 +9799,7 @@
     "m_Title": "flickering",
     "m_Position": {
         "x": -2541.0,
-        "y": 1835.0
+        "y": 1834.9998779296875
     }
 }
 
@@ -10545,6 +10583,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "c0669eae7640451aae8e837ba5a46d2d",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -502.9999694824219,
+            "y": -516.9999389648438,
+            "width": 100.99996948242188,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "60f9a191c1364cfea5b14aa7dd119acb"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "ff267298595c436ab7976f4e3af52ca1"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "c0a58b7becd1476db393295b686745d7",
     "m_Id": 0,
@@ -11285,7 +11359,7 @@
     "m_Title": "noise",
     "m_Position": {
         "x": -27.0,
-        "y": 612.0
+        "y": 612.0001220703125
     }
 }
 
@@ -11301,10 +11375,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 401.9999694824219,
-            "y": -645.0,
-            "width": 208.00003051757813,
-            "height": 433.0
+            "x": 300.0,
+            "y": -615.0000610351563,
+            "width": 208.00006103515626,
+            "height": 433.0000915527344
         }
     },
     "m_Slots": [
@@ -11344,7 +11418,7 @@
         "m_SerializableColors": []
     },
     "m_TextureType": 0,
-    "m_NormalMapSpace": 0,
+    "m_NormalMapSpace": 1,
     "m_EnableGlobalMipBias": true,
     "m_MipSamplingMode": 0
 }
@@ -11434,8 +11508,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1297.0001220703125,
-            "y": 509.9999694824219,
+            "x": 1263.0001220703125,
+            "y": 376.0000305175781,
             "width": 208.0,
             "height": 301.9999694824219
         }
@@ -11580,10 +11654,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 508.9999694824219,
-            "y": -162.99996948242188,
-            "width": 208.00003051757813,
-            "height": 326.0
+            "x": 575.0,
+            "y": -162.00003051757813,
+            "width": 208.00006103515626,
+            "height": 326.0000305175781
         }
     },
     "m_Slots": [
@@ -12384,7 +12458,7 @@
     "m_Title": "ScanLines",
     "m_Position": {
         "x": -2542.0,
-        "y": 2323.0
+        "y": 2322.999755859375
     }
 }
 
@@ -13311,7 +13385,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 0.20000000298023225,
+        "e00": 0.10000000149011612,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
@@ -13390,6 +13464,34 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "ff267298595c436ab7976f4e3af52ca1",
+    "m_Guid": {
+        "m_GuidSerialized": "1cc69cfe-a9b4-40f6-897c-5c514afd634b"
+    },
+    "m_Name": "texScrolling",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "texScrolling",
+    "m_DefaultReferenceName": "_texScrolling",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
     }
 }
 
