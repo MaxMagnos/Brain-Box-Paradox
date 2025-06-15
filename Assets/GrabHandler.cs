@@ -1,13 +1,16 @@
 using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GrabHandler : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject HitDebugPoint;
     [SerializeField] private GameObject grabbedObject;
+    [SerializeField] private Rigidbody grabbedObjectRB;
 
     private Vector3 targetPosition;
+    private Quaternion rotationOffset;
 
     [Header("Variables to Change")]
     public float grabRange;
@@ -42,6 +45,7 @@ public class GrabHandler : MonoBehaviour
             else
             {
                 grabbedObject = TryGrab();
+                grabbedObjectRB = grabbedObject.GetComponent<Rigidbody>();
             }
         }
         
@@ -52,8 +56,6 @@ public class GrabHandler : MonoBehaviour
     {
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
         RaycastHit hit;
-
-        Debug.Log("Attempting to Grab");
         if (Physics.Raycast(ray, out hit, grabRange))
         {
             //Instantiate(HitDebugPoint, hit.point, Quaternion.identity);   //Instantiate a HitDebugPoint at Raycast-Hit position to visualize it
@@ -61,6 +63,8 @@ public class GrabHandler : MonoBehaviour
             if (grabable != null)
             {
                 grabable.Grab();
+                rotationOffset = Quaternion.Inverse(mainCamera.transform.rotation) * grabable.transform.rotation;
+                rotationOffset = Quaternion.Euler(0, rotationOffset.eulerAngles.y, 0);
                 return grabable.gameObject;
             }
         }
@@ -77,11 +81,17 @@ public class GrabHandler : MonoBehaviour
     {
         if (grabbedObject)
         {
+            //Move Position of Grabbed Object
             targetPosition = mainCamera.transform.position + mainCamera.transform.forward * grabbedDistance;
             float totalDistance = (targetPosition - grabbedObject.transform.position).magnitude;
             float moveSpeed = Mathf.Lerp(dampMinSpeed, dampMaxSpeed, dampCurve.Evaluate(totalDistance / maxDampDistance));
             Vector3 newPosition = Vector3.MoveTowards(grabbedObject.transform.position, targetPosition, Time.deltaTime * moveSpeed);
-            grabbedObject.GetComponent<Rigidbody>().MovePosition(newPosition);
+            grabbedObjectRB.MovePosition(newPosition);
+            
+            //Change Rotation of Grabbed Object relative to camera
+            var newRotation = mainCamera.transform.rotation.eulerAngles + rotationOffset.eulerAngles;
+            newRotation.x = grabbedObject.transform.rotation.eulerAngles.x;
+            grabbedObjectRB.rotation = Quaternion.Euler(newRotation);
         }
     }
     
@@ -96,4 +106,5 @@ public class GrabHandler : MonoBehaviour
             Gizmos.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * grabRange);
         }
     }
+    
 }
