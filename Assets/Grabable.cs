@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Grabable : MonoBehaviour
 {
-    private Rigidbody rb;
-    private Collider grabCollider;
+    public Rigidbody rb;
+    public Collider grabCollider;
     public bool grabbed = false;
     
     private void Awake()

@@ -5,9 +5,8 @@ using UnityEngine.UIElements;
 public class GrabHandler : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private GameObject HitDebugPoint;
-    [SerializeField] private GameObject grabbedObject;
-    [SerializeField] private Rigidbody grabbedObjectRB;
+    [SerializeField] private SnapPoint targetedSnapPoint;
+    [SerializeField] private Grabable currentGrabable;
 
     private Vector3 targetPosition;
     private Quaternion rotationOffset;
@@ -34,25 +33,33 @@ public class GrabHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        targetedSnapPoint = CheckForSnapPoint();
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Space Pressed");
-            if (grabbedObject)
+            if (currentGrabable)
             {
-                grabbedObject.GetComponent<Grabable>().Drop();
-                grabbedObject = null;
+                currentGrabable.Drop();
+                if (targetedSnapPoint)
+                {
+                    targetedSnapPoint.SetOccupyingObject(currentGrabable);
+                }
+                else
+                {
+                }
+                currentGrabable = null;
             }
             else
             {
-                grabbedObject = TryGrab();
-                grabbedObjectRB = grabbedObject.GetComponent<Rigidbody>();
+                currentGrabable = TryGrab();
             }
         }
         
         HandleMove();
     }
 
-    public GameObject TryGrab()
+    public Grabable TryGrab()
     {
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
         RaycastHit hit;
@@ -65,7 +72,7 @@ public class GrabHandler : MonoBehaviour
                 grabable.Grab();
                 rotationOffset = Quaternion.Inverse(mainCamera.transform.rotation) * grabable.transform.rotation;
                 rotationOffset = Quaternion.Euler(0, rotationOffset.eulerAngles.y, 0);
-                return grabable.gameObject;
+                return grabable;
             }
         }
         
@@ -79,19 +86,19 @@ public class GrabHandler : MonoBehaviour
     /// </summary>
     void HandleMove()
     {
-        if (grabbedObject)
+        if (currentGrabable)
         {
             //Move Position of Grabbed Object
             targetPosition = mainCamera.transform.position + mainCamera.transform.forward * grabbedDistance;
-            float totalDistance = (targetPosition - grabbedObject.transform.position).magnitude;
+            float totalDistance = (targetPosition - currentGrabable.transform.position).magnitude;
             float moveSpeed = Mathf.Lerp(dampMinSpeed, dampMaxSpeed, dampCurve.Evaluate(totalDistance / maxDampDistance));
-            Vector3 newPosition = Vector3.MoveTowards(grabbedObject.transform.position, targetPosition, Time.deltaTime * moveSpeed);
-            grabbedObjectRB.MovePosition(newPosition);
+            Vector3 newPosition = Vector3.MoveTowards(currentGrabable.transform.position, targetPosition, Time.deltaTime * moveSpeed);
+            currentGrabable.rb.MovePosition(newPosition);
             
             //Change Rotation of Grabbed Object relative to camera
             var newRotation = mainCamera.transform.rotation.eulerAngles + rotationOffset.eulerAngles;
-            newRotation.x = grabbedObject.transform.rotation.eulerAngles.x;
-            grabbedObjectRB.rotation = Quaternion.Euler(newRotation);
+            newRotation.x = currentGrabable.transform.rotation.eulerAngles.x;
+            currentGrabable.rb.rotation = Quaternion.Euler(newRotation);
         }
     }
     
@@ -106,5 +113,17 @@ public class GrabHandler : MonoBehaviour
             Gizmos.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * grabRange);
         }
     }
-    
+
+    SnapPoint CheckForSnapPoint()
+    {
+        Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, grabRange))
+        {
+            var snapPoint = hit.collider.gameObject.GetComponent<SnapPoint>();
+            return snapPoint;
+        }
+
+        return null;
+    }
 }
