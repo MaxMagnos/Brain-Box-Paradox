@@ -21,45 +21,56 @@ public class GrabHandler : MonoBehaviour
     
     [Tooltip("Curve of damp-speed for grabbed objects.\n X-Axis: How far away object is from target-position (0 = at target position).\n Y-Axis: speed-multiplier (0 = minSpeed, 1 = maxSpeed")]
     public AnimationCurve dampCurve;
-    
-    private void Awake()
+
+    private void OnEnable()
     {
         if (!mainCamera)
         {
             mainCamera = Camera.main;
         }
+
+        InputHandler.Ins.OnGrabPressed += Grab;
+    }
+
+    private void OnDisable()
+    {
+        InputHandler.Ins.OnGrabPressed -= Grab;
     }
 
     // Update is called once per frame
     void Update()
     {
-        targetedSnapPoint = CheckForSnapPoint();
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Space Pressed");
-            if (currentGrabable)
-            {
-                currentGrabable.Drop();
-                if (targetedSnapPoint)
-                {
-                    targetedSnapPoint.SetOccupyingObject(currentGrabable);
-                }
-                else
-                {
-                }
-                currentGrabable = null;
-            }
-            else
-            {
-                currentGrabable = TryGrab();
-            }
+            
         }
         
         HandleMove();
     }
 
-    public Grabable TryGrab()
+    /// <summary>
+    /// Main Function handling the high-level grab logic executed when Grab Button is pressed.
+    /// </summary>
+    public void Grab()
+    {
+        if (currentGrabable)
+        {
+            targetedSnapPoint = CheckForSnapPoint();
+            currentGrabable.Drop();
+            if (targetedSnapPoint)
+            {
+                targetedSnapPoint.SetOccupyingObject(currentGrabable);
+            }
+            currentGrabable = null;
+        }
+        else
+        {
+            currentGrabable = GetGrabable();
+        }
+    }
+
+    public Grabable GetGrabable()
     {
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
         RaycastHit hit;

@@ -28,4 +28,9 @@ public class FloatEffect : MonoBehaviour
     {
         transform.DOKill();
     }
+
+    private void OnDisable()
+    {
+        transform.DOKill();
+    }
 }
