@@ -27,13 +27,14 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: b2b24002e208c4b43858fe8578eb5904, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 2225
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -41,6 +42,7 @@ Material:
   - TransparentDepthPostpass
   - TransparentBackface
   - MOTIONVECTORS
+  - RayTracingPrepass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -86,21 +88,34 @@ Material:
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _GlitchStrength: 27.7
+    - _Glitch_Interference_Speed: 4
+    - _Glitch_Line_Size: 50
+    - _MaterialID: 1
+    - _MaterialTypeMask: 2
     - _NoiseAmount: 200
     - _OpaqueCullMode: 1
     - _PerPixelSorting: 0
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
     - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
     - _ScanLineStrength: 0.8
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 1
+    - _StencilRefDepth: 8
     - _StencilRefDistortionVec: 4
-    - _StencilRefMV: 33
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskMV: 43
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SupportDecals: 1
     - _SurfaceType: 0
+    - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 1
     - _TransparentDepthPostpassEnable: 0
@@ -111,17 +126,21 @@ Material:
     - _UseShadowThreshold: 0
     - _VerticalLineStrength: 0
     - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
     - _alpha: 1
+    - _glitch_pattern: 0.32
+    - _glitch_scroll_speed: 3
     - _tansperency: 0.57
     - _texScrolling: 0.1
     m_Colors:
     - _BColor: {r: 0.37311292, g: 1, b: 0, a: 0}
     - _BottomColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 0.83804107, g: 0.6367924, b: 1, a: 0}
-    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Glitch_Color: {r: 1, g: 0, b: 0, a: 0}
     - _TColor: {r: 1, g: 0.39124364, b: 0, a: 0}
     - _TopColor: {r: 1, g: 0, b: 0, a: 0}
     - _tiling: {r: 3, g: 3, b: 0, a: 0}
