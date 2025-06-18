@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Room4_PostProcesingVolume Profile
+  m_Name: Room 1
   m_EditorClassIdentifier: 
   components:
   - {fileID: 3038726667191617150}
@@ -501,7 +501,7 @@ MonoBehaviour:
     m_Value: 20000
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.7958535, g: 0.31744677, b: 1, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   groundColorTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -534,7 +534,7 @@ MonoBehaviour:
     m_Value: 1
   horizonTint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.2688679, b: 0.7174259, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   zenithTint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
