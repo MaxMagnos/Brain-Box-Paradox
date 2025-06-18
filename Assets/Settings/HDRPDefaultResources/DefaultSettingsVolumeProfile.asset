@@ -1858,7 +1858,7 @@ MonoBehaviour:
   active: 1
   enable:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   cloudTiling:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1}
@@ -2248,7 +2248,7 @@ MonoBehaviour:
   active: 1
   enable:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   compositionMode:
     m_OverrideState: 1
     m_Value: 0
