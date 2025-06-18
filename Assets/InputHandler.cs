@@ -10,7 +10,7 @@ public class InputHandler : MonoBehaviour
     public bool lastGrabButtonState;
 
     public event Action OnRoomStateSwitch;
-    public bool roomSwitchState;
+    public bool lastRoomSwitchState;
 
     private void Awake()
     {
@@ -39,5 +39,14 @@ public class InputHandler : MonoBehaviour
         }
         
         lastGrabButtonState = grabButtonState;
+    }
+
+    public void HandleRoomSwitch(bool state)
+    {
+        if (state == lastRoomSwitchState)
+            return;
+
+        lastRoomSwitchState = state;
+        OnRoomStateSwitch?.Invoke();
     }
 }
