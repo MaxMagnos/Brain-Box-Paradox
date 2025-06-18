@@ -1,0 +1,3 @@
+Example for a Prop: FlowerPot Prefab with a "Grabable" component. Able to be picked up, but not much more.
+
+NOT A PROP: Objects with special logic, such as a SnapPoint
