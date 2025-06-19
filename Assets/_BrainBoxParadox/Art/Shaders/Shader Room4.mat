@@ -31,6 +31,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
         m_Texture: {fileID: 8400000, guid: 1c00ea8cb355da440a1779470f63c1cc, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -66,8 +70,9 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
+    - _GlitchOpacity: 0.16
     - _GlitchStrength: 2.14
-    - _Glitch_Interference_Speed: 3
+    - _Glitch_Interference_Speed: 0.75
     - _Glitch_Line_Size: 100
     - _MaterialID: 1
     - _MaterialTypeMask: 2
@@ -79,7 +84,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _ScanLineStrength: 0.9
+    - _ScanLineStrength: 0.87
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -102,19 +107,22 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
+    - _Vertical_line_speed: 5
+    - _Vertical_line_strength: 0.87
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
     - _alpha: 1
+    - _flicker_speed: 5
     - _glitch_pattern: 0.32
-    - _glitch_scroll_speed: 1
+    - _glitch_scroll_speed: 1.44
     - _texScrolling: 0
     m_Colors:
     - _BColor: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Glitch_Color: {r: 0, g: 0.3233118, b: 1, a: 0}
+    - _Glitch_Color: {r: 0.77226734, g: 0, b: 1, a: 0}
     - _TColor: {r: 1, g: 1, b: 1, a: 0}
     - _tiling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
