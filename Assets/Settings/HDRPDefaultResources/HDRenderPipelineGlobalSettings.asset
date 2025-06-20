@@ -52,8 +52,8 @@ MonoBehaviour:
   lensAttenuationMode: 0
   colorGradingSpace: 0
   m_ObsoleteDiffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 48e911a1e337b44e2b85dbc65b47a594, type: 2}
-  - {fileID: 11400000, guid: 879ffae44eefa4412bb327928f1a96dd, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   specularFade: 0
   rendererListCulling: 0
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
@@ -360,7 +360,7 @@ MonoBehaviour:
           materialQuality: 0
         m_CustomOrBakedReflection:
           bitDatas:
-            data1: 135310754214733
+            data1: 135448193168205
             data2: 4539628428684460056
           lodBias: 1
           lodBiasMode: 0
