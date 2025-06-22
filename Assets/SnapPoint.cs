@@ -21,7 +21,7 @@ public class SnapPoint : MonoBehaviour
         
         var otherGrabable = other.GetComponent<Grabable>();
 
-        if (otherGrabable.grabbed || !otherGrabable)    //Do nothing if grabable is already grabbed or returned empty
+        if (!otherGrabable || otherGrabable.grabbed)    //Do nothing if grabable is already grabbed or returned empty
         {
             return;
         }
@@ -48,6 +48,11 @@ public class SnapPoint : MonoBehaviour
         occupyingObject.rb.DOMove(transform.position, 0.5f).SetEase(Ease.OutQuint);
         occupyingObject.rb.isKinematic = true;
         snapCollider.enabled = false;       //Disable collider for SnapPoint since it's not needed while it has an occupying object.
+    }
+
+    public GameObject GetOccupyingObject()
+    {
+        return occupyingObject.gameObject;
     }
 
     private void ClearOccupyingObject()

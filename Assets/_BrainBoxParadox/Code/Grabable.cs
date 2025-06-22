@@ -8,6 +8,9 @@ public class Grabable : MonoBehaviour
     public Collider grabCollider;
     public bool grabbed = false;
 
+    public event Action OnGrabbed;
+    public event Action OnDropped;
+
     private FloatEffect floatEffect;
     
     private void Awake()
@@ -32,6 +35,8 @@ public class Grabable : MonoBehaviour
         //Disable Float Effect upon being picked up
         if (floatEffect)
             floatEffect.enabled = false;
+        
+        OnGrabbed?.Invoke();
     }
 
     public void Drop()
@@ -39,5 +44,7 @@ public class Grabable : MonoBehaviour
         grabbed = false;
         rb.isKinematic = false;
         grabCollider.enabled = true;
+        
+        OnDropped?.Invoke();
     }
 }
