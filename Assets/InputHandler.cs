@@ -12,6 +12,13 @@ public class InputHandler : MonoBehaviour
     public event Action OnRoomStateSwitch;
     public bool lastRoomSwitchState;
 
+    public event Action OnMorphSliderChange;
+    public int morphSliderValue;
+
+    public event Action OnKnock;
+    public bool knockButtonState;
+    public float lastKnockTime = float.NegativeInfinity;
+
     private void Awake()
     {
         if (Ins != null && Ins != this)
@@ -48,5 +55,22 @@ public class InputHandler : MonoBehaviour
 
         lastRoomSwitchState = state;
         OnRoomStateSwitch?.Invoke();
+    }
+
+    public void HandleMorphSlider(int value)
+    {
+        if (morphSliderValue == value) return;
+        
+        morphSliderValue = value;
+        OnMorphSliderChange?.Invoke();
+    }
+
+    public void HandleKnock()
+    {
+        if (Time.time > lastKnockTime)
+        {
+            OnKnock?.Invoke();
+            lastKnockTime = Time.time;
+        }
     }
 }

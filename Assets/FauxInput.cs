@@ -8,8 +8,9 @@ public class FauxInput : MonoBehaviour
 {
     private InputHandler inputHandler;
 
+    [Range(1, 3)] public int sliderValue;
 
-    private void OnEnable()
+    private void Awake()
     {
         inputHandler = InputHandler.Ins;
     }
@@ -22,5 +23,15 @@ public class FauxInput : MonoBehaviour
         {
             InputHandler.Ins.HandleRoomSwitch(!InputHandler.Ins.lastRoomSwitchState);   //Just switches room-state when S is pressed
         }
+
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            InputHandler.Ins.HandleKnock();
+        }
+    }
+
+    private void OnValidate()
+    {
+        InputHandler.Ins.HandleMorphSlider(sliderValue);
     }
 }
