@@ -182,7 +182,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d35c1ca1707ce424ba0ad12c2a3251d8, type: 2}
+      objectReference: {fileID: 2100000, guid: cc2a8d5e2bb267b4aa0bf532ef82242c, type: 2}
     - target: {fileID: 919132149155446097, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_Name
       value: walls3
@@ -276,7 +276,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3765e0e4c5e9aa54dad19df1290be889, type: 2}
+  - {fileID: 2100000, guid: cc2a8d5e2bb267b4aa0bf532ef82242c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -891,7 +891,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3765e0e4c5e9aa54dad19df1290be889, type: 2}
+  - {fileID: 2100000, guid: cc2a8d5e2bb267b4aa0bf532ef82242c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

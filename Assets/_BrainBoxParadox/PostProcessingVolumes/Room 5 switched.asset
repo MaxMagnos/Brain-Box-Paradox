@@ -350,52 +350,6 @@ MonoBehaviour:
   m_MaxSamples:
     m_OverrideState: 0
     m_Value: 6
---- !u!114 &-3053107751348969476
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
-  m_Name: Bloom
-  m_EditorClassIdentifier: 
-  active: 1
-  quality:
-    m_OverrideState: 1
-    m_Value: 1
-  threshold:
-    m_OverrideState: 1
-    m_Value: 0.56
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.817
-  scatter:
-    m_OverrideState: 1
-    m_Value: 0.293
-  tint:
-    m_OverrideState: 1
-    m_Value: {r: 1, g: 0.029988142, b: 0, a: 1}
-  dirtTexture:
-    m_OverrideState: 1
-    m_Value: {fileID: 0}
-  dirtIntensity:
-    m_OverrideState: 1
-    m_Value: 0
-  anamorphic:
-    m_OverrideState: 0
-    m_Value: 1
-  m_Resolution:
-    m_OverrideState: 1
-    m_Value: 2
-  m_HighQualityPrefiltering:
-    m_OverrideState: 1
-    m_Value: 0
-  m_HighQualityFiltering:
-    m_OverrideState: 1
-    m_Value: 1
 --- !u!114 &-2200568834700663878
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -425,7 +379,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Room 2 _ Switched
+  m_Name: Room 5 switched
   m_EditorClassIdentifier: 
   components:
   - {fileID: 3038726667191617150}
@@ -438,7 +392,6 @@ MonoBehaviour:
   - {fileID: 1539706014326486066}
   - {fileID: 5386441552155270241}
   - {fileID: -3914498602966607469}
-  - {fileID: -3053107751348969476}
 --- !u!114 &1539706014326486066
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -548,7 +501,7 @@ MonoBehaviour:
     m_Value: 20000
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.3552801, g: 0.23652397, b: 1, a: 1}
+    m_Value: {r: 0.7958535, g: 0.31744677, b: 1, a: 1}
   groundColorTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -581,7 +534,7 @@ MonoBehaviour:
     m_Value: 1
   horizonTint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.2688679, b: 0.7174259, a: 1}
   zenithTint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -974,19 +927,19 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.05
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 16.74
+    m_Value: 8.4
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 13
+    m_Value: 14.9
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0.39235067, b: 1, a: 1}
+    m_Value: {r: 0.21226418, g: 0.41764998, b: 1, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1

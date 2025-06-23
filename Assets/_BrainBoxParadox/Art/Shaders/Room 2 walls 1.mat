@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _normalmap:
-        m_Texture: {fileID: 2800000, guid: df395e4407df8904ba23a107e02c351b, type: 3}
+        m_Texture: {fileID: 2800000, guid: ca8fcd6ba2447844d804be9c3e06fcd2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -74,10 +74,10 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _GlitchOpacity: 0.13
+    - _GlitchOpacity: 0.73
     - _GlitchStrength: 4
-    - _Glitch_Interference_Speed: 2
-    - _Glitch_Line_Size: 200
+    - _Glitch_Interference_Speed: 1
+    - _Glitch_Line_Size: 500
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
@@ -88,7 +88,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _ScanLineStrength: 1
+    - _ScanLineStrength: -0.49
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -111,24 +111,25 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _Vertical_line_speed: 3.71
-    - _Vertical_line_strength: 1.22
+    - _Vertical_line_speed: 2
+    - _Vertical_line_strength: 0.7
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
     - _alpha: 0
-    - _flicker_speed: 5
+    - _flicker_speed: 2
     - _glitch_pattern: 0.32
-    - _glitch_scroll_speed: 1
+    - _glitch_scroll_speed: 8.29
+    - _normalmap_strngth: 1
     - _texScrolling: 0
     m_Colors:
     - _BColor: {r: 1, g: 1, b: 1, a: 0}
     - _ColorVertical_line: {r: 0.20060563, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Glitch_Color: {r: 0.5754717, g: 0.18729976, b: 0.29209802, a: 0}
-    - _TColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Glitch_Color: {r: 0, g: 1, b: 0.203542, a: 0}
+    - _TColor: {r: 1, g: 0, b: 0.94901943, a: 0}
     - _tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
