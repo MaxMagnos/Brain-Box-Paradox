@@ -390,18 +390,18 @@ MonoBehaviour:
     m_Value: 1.46
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.531
   scatter:
     m_OverrideState: 1
-    m_Value: 0.653
+    m_Value: 0.64
   tint:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0.8595505, b: 1, a: 1}
   dirtTexture:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 0}
   dirtIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   anamorphic:
     m_OverrideState: 0
@@ -548,8 +548,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 20000
   groundTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.067631155, g: 1, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.15778312, g: 0.35727677, b: 0, a: 1}
   groundColorTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -582,13 +582,13 @@ MonoBehaviour:
     m_Value: 1
   horizonTint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.22473836, g: 1, b: 0, a: 1}
   zenithTint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   horizonZenithShift:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -1
   m_SkyVersion: 3
   m_ObsoleteEarthPreset:
     m_OverrideState: 1
@@ -768,13 +768,13 @@ MonoBehaviour:
     m_Value: 4
   cloudType:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   skyAmbientMode:
     m_OverrideState: 1
     m_Value: 1
   planetRadius:
     m_OverrideState: 1
-    m_Value: 6378.3
+    m_Value: 6362.58
   renderingSpace:
     m_OverrideState: 1
     m_Value: 1
@@ -786,7 +786,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: -6378.1, z: 0}
   windOrientation:
     m_OverrideState: 1
-    m_Value: 141
+    m_Value: 185
   windSpeed:
     m_OverrideState: 1
     m_Value: 1
@@ -954,10 +954,10 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 1.43
+    m_Value: 3.97
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.444
   radius:
     m_OverrideState: 1
     m_Value: 2
@@ -1004,10 +1004,10 @@ MonoBehaviour:
     m_Value: 2
   m_RayLength:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0.01
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 22
   m_Denoise:
     m_OverrideState: 1
     m_Value: 1
@@ -1034,17 +1034,17 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   colorMode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   color:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 1, b: 0.45767713, a: 1}
+    m_Value: {r: 0, g: 1, b: 0.35566998, a: 1}
   tint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.5086235, g: 0.6415094, b: 0, a: 1}
   maxFogDistance:
-    m_OverrideState: 0
-    m_Value: 5000
+    m_OverrideState: 1
+    m_Value: 50000
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -1056,25 +1056,25 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.04
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 6.48
+    m_Value: 13
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 29.7
+    m_Value: 46.1
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.5194229, g: 0.6132076, b: 0, a: 1}
+    m_Value: {r: 0.25900698, g: 0.69803923, b: 0.023529407, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 52.4
+    m_Value: 26.4
   denoisingMode:
     m_OverrideState: 0
     m_Value: 2

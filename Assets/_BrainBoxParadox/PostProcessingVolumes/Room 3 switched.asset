@@ -387,16 +387,16 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 1.46
+    m_Value: 2
   intensity:
     m_OverrideState: 1
     m_Value: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.653
+    m_Value: 1
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0.8595505, b: 1, a: 1}
+    m_Value: {r: 0, g: 0.8183851, b: 1, a: 1}
   dirtTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -548,8 +548,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 20000
   groundTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.067631155, g: 1, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.011629952, b: 0, a: 1}
   groundColorTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -954,7 +954,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 1.43
+    m_Value: 3.18
   directLightingStrength:
     m_OverrideState: 1
     m_Value: 1
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     m_Value: 3
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 54
   m_Denoise:
     m_OverrideState: 1
     m_Value: 1
@@ -1043,7 +1043,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 5000
   mipFogMaxMip:
     m_OverrideState: 0

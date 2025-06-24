@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Room 3 walls 2
+  m_Name: Room 3 stairs
   m_Shader: {fileID: -6465566751694194690, guid: affab895457cdef4da489922c9b34f97, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -31,10 +31,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Normal:
-        m_Texture: {fileID: 2800000, guid: d7dbdc023c0a9424a8e4da172c37f50f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _NormalFromTexture_1457251a44b84f6a970e14517c945594_Texture_0_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -45,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _normalmap:
         m_Texture: {fileID: 2800000, guid: df395e4407df8904ba23a107e02c351b, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
@@ -72,16 +68,16 @@ Material:
     - _DepthOffsetEnable: 0
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
-    - _DoubleSidedNormalMode: 1
+    - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
     - _DstBlend2: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _GlitchOpacity: 0.19
-    - _GlitchStrength: 4
-    - _Glitch_Interference_Speed: 3
-    - _Glitch_Line_Size: 900
+    - _GlitchOpacity: 0.09
+    - _GlitchStrength: 2.14
+    - _Glitch_Interference_Speed: 1
+    - _Glitch_Line_Size: 400
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
@@ -92,7 +88,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _ScanLineStrength: 0.95
+    - _ScanLineStrength: 1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -115,26 +111,25 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _Vertical_line_speed: 2
+    - _Vertical_line_speed: 1
     - _Vertical_line_strength: 1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
     - _alpha: 1
-    - _flicker_speed: 2
+    - _flicker_speed: 1
     - _glitch_pattern: 0.32
-    - _glitch_scroll_speed: 10.64
-    - _normalmap_strngth: 3
+    - _glitch_scroll_speed: 2
+    - _normalmap_strngth: 1
     - _texScrolling: 0
     m_Colors:
     - _BColor: {r: 1, g: 1, b: 1, a: 0}
-    - _ColorVertical_line: {r: 0.20060563, g: 1, b: 0, a: 0}
-    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Glitch_Color: {r: 0.21487208, g: 0, b: 0.3019608, a: 0}
+    - _Glitch_Color: {r: 0.11534355, g: 0.13374305, b: 0.3018868, a: 0}
     - _TColor: {r: 1, g: 1, b: 1, a: 0}
-    - _tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2774548034334552256
