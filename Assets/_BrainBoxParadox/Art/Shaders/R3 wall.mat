@@ -76,7 +76,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _GlitchOpacity: 1.2
+    - _GlitchOpacity: 0.36
     - _GlitchStrength: 4
     - _Glitch_Interference_Speed: 1
     - _Glitch_Line_Size: 500
@@ -130,7 +130,7 @@ Material:
     - _ColorVertical_line: {r: 0.20060563, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Glitch_Color: {r: 0, g: 0.3207547, b: 0.006555953, a: 0}
+    - _Glitch_Color: {r: 0.029592374, g: 0.3301887, b: 0.036923986, a: 0}
     - _TColor: {r: 1, g: 0, b: 0.94901943, a: 0}
     - _tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

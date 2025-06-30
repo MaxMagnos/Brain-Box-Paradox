@@ -91,7 +91,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _Float: -1.48
+    - _Float: -0.71
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
@@ -128,7 +128,7 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 0
     - _ZWrite: 0
-    - _float: 9999
+    - _float: 99999
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0.8145139, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
