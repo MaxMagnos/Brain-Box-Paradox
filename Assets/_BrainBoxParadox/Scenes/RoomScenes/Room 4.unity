@@ -1806,13 +1806,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Atmosphere and Volumes
       objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: NoiseModule.frequency
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: NoiseModule.strength.scalar
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: NoiseModule.scrollSpeed.scalar
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.7783019
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.9616285
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0.8867924
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.87774265
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 0.69855815
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 0.93514013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0.45834818
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730907370444052398, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.r
+      value: 0.9433962
+      objectReference: {fileID: 0}
     - target: {fileID: 6246166687034286371, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 6246166687034286371, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.5
+      value: -8.5
       objectReference: {fileID: 0}
     - target: {fileID: 6711010842051178541, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1854,11 +1922,85 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8206289496989022327, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206289496989022327, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206289496989022327, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206289496989022327, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 4125317223219065082, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+--- !u!1001 &5545639756033102471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 178558522249173536, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_Name
+      value: Particle System (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ba2fe37e37c2074b8748c23108fb7d1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1869,3 +2011,4 @@ SceneRoots:
   - {fileID: 2043445165}
   - {fileID: 1296339767}
   - {fileID: 202499167}
+  - {fileID: 5545639756033102471}
