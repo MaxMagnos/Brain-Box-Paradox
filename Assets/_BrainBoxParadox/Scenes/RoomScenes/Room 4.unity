@@ -1956,6 +1956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4677417410530890429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.009
+      objectReference: {fileID: 0}
     - target: {fileID: 6251681590191290429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.6
