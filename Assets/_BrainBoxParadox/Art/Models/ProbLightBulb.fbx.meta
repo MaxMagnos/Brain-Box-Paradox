@@ -12,13 +12,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Light_Wire
-    second: {fileID: 2100000, guid: d001e7c4cb122f447a68335ee2280846, type: 2}
+      name: Glas
+    second: {fileID: 2100000, guid: 3197ad41b39387943b145e95242ea0ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.006
-    second: {fileID: 2100000, guid: 3197ad41b39387943b145e95242ea0ed, type: 2}
+      name: Light_Wire
+    second: {fileID: 2100000, guid: d001e7c4cb122f447a68335ee2280846, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -61,9 +61,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: LightBulb_Breath_Idle
-      takeName: LightBulb_Breath_Idle
-      internalID: -8236150391976998605
+      name: Light_Bulb_Breath_Idle
+      takeName: LightBulb_Breath_Idle.001
+      internalID: 6435017300041040885
       firstFrame: 0
       lastFrame: 99
       wrapMode: 0
