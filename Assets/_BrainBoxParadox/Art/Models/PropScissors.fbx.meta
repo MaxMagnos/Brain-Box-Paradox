@@ -3,7 +3,12 @@ guid: 38c549d298ae7bc4abfa82f3069c171b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_scissors
+    second: {fileID: 2100000, guid: 4b7c78245c78558459617ad1a4ba2648, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
