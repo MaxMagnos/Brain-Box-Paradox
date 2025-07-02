@@ -30,22 +30,18 @@ public class GrabHandler : MonoBehaviour
         }
 
         InputHandler.Ins.OnGrabPressed += Grab;
+        InputHandler.Ins.OnGrabReleased += Drop;
     }
 
     private void OnDisable()
     {
         InputHandler.Ins.OnGrabPressed -= Grab;
+        InputHandler.Ins.OnGrabReleased -= Drop;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            
-        }
-        
         HandleMove();
     }
 
@@ -56,18 +52,23 @@ public class GrabHandler : MonoBehaviour
     {
         if (currentGrabable)
         {
-            targetedSnapPoint = CheckForSnapPoint();
-            currentGrabable.Drop();
-            if (targetedSnapPoint)
-            {
-                targetedSnapPoint.SetOccupyingObject(currentGrabable);
-            }
-            currentGrabable = null;
+            Debug.LogWarning("Grab called while grab is already occupied");
         }
         else
         {
             currentGrabable = GetGrabable();
         }
+    }
+
+    public void Drop()
+    {
+        targetedSnapPoint = CheckForSnapPoint();
+        currentGrabable.Drop();
+        if (targetedSnapPoint)
+        {
+            targetedSnapPoint.SetOccupyingObject(currentGrabable);
+        }
+        currentGrabable = null;
     }
 
     public Grabable GetGrabable()
