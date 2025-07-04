@@ -123,7 +123,7 @@ Material:
     - _flicker_speed: 2
     - _glitch_pattern: 0.32
     - _glitch_scroll_speed: 8.29
-    - _normalmap_strngth: 3
+    - _normalmap_strngth: 1
     - _texScrolling: 0
     m_Colors:
     - _BColor: {r: 1, g: 1, b: 1, a: 0}
