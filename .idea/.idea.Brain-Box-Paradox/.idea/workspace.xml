@@ -22,9 +22,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/RoomSwitcher.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SnapPoint.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SnapPoint.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/GrabHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/GrabHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +50,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "prototyping-max-3",
+    "git-widget-placeholder": "prototyping-max-4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,7 +111,7 @@
       <workItem from="1749991561136" duration="3912000" />
       <workItem from="1750516026744" duration="4740000" />
       <workItem from="1750614207025" duration="979000" />
-      <workItem from="1751292489711" duration="3828000" />
+      <workItem from="1751465668645" duration="3913000" />
     </task>
     <servers />
   </component>

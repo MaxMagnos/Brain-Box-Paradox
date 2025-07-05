@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class MorphHandler : MonoBehaviour
 {
-    [SerializeField] private Grabable grabable;
+    private Grabable grabable;
     
     [SerializeField] public GameObject[] shapes;
     [SerializeField] private int currentShapeID;
-    [SerializeField] private int lockCount;
+    [SerializeField] public int lockCount;
 
     private void Awake()
     {
