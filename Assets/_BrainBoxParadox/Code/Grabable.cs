@@ -13,6 +13,9 @@ public class Grabable : MonoBehaviour
 
     private FloatEffect floatEffect;
     
+    //Layer Related
+    private int originalLayer;
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -24,19 +27,23 @@ public class Grabable : MonoBehaviour
         
         grabCollider = GetComponent<Collider>();
         floatEffect = GetComponent<FloatEffect>();
+        
+        originalLayer = gameObject.layer;
     }
-
+    
     public void Grab()
     {
         grabbed = true;
         rb.isKinematic = true;
         grabCollider.enabled = false;
+        gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
 
         //Disable Float Effect upon being picked up
         if (floatEffect)
             floatEffect.enabled = false;
         
         OnGrabbed?.Invoke();
+        
     }
 
     public void Drop()
@@ -44,6 +51,7 @@ public class Grabable : MonoBehaviour
         grabbed = false;
         rb.isKinematic = false;
         grabCollider.enabled = true;
+        gameObject.layer = originalLayer;
         
         OnDropped?.Invoke();
     }

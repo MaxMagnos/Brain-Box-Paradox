@@ -50,11 +50,7 @@ public class GrabHandler : MonoBehaviour
     /// </summary>
     public void Grab()
     {
-        if (currentGrabable)
-        {
-            Debug.LogWarning("Grab called while grab is already occupied");
-        }
-        else
+        if (!currentGrabable)
         {
             currentGrabable = GetGrabable();
         }
@@ -62,15 +58,18 @@ public class GrabHandler : MonoBehaviour
 
     public void Drop()
     {
-        targetedSnapPoint = CheckForSnapPoint();
-        currentGrabable.Drop();
-        if (targetedSnapPoint)
+        if (currentGrabable)
         {
-            targetedSnapPoint.SetOccupyingObject(currentGrabable);
+            targetedSnapPoint = CheckForSnapPoint();
+            currentGrabable.Drop();
+            if (targetedSnapPoint)
+            {
+                targetedSnapPoint.SetOccupyingObject(currentGrabable);
+            }
+            currentGrabable = null;
         }
-        currentGrabable = null;
     }
-
+    
     public Grabable GetGrabable()
     {
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
@@ -128,11 +127,14 @@ public class GrabHandler : MonoBehaviour
 
     SnapPoint CheckForSnapPoint()
     {
+        int layerMask = 1 << LayerMask.NameToLayer("SnapPoint");
+        
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, grabRange))
+        if (Physics.Raycast(ray, out hit, grabRange, layerMask))
         {
             var snapPoint = hit.collider.gameObject.GetComponent<SnapPoint>();
+            if(snapPoint != null) {Debug.Log("Snappoint Hit on Drop: " + snapPoint.name);}
             return snapPoint;
         }
 
