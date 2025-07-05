@@ -49,8 +49,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2078379757762873456, guid: cd57f2f70dd014b449e40492af681c21, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 2078379757762873456, guid: cd57f2f70dd014b449e40492af681c21, type: 3}
       propertyPath: m_Name
       value: Converter Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078379757762873456, guid: cd57f2f70dd014b449e40492af681c21, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -79,3 +87,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapPoint: {fileID: 0}
   morphHandler: {fileID: 0}
+  convertableID: 4

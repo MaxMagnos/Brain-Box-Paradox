@@ -17,7 +17,7 @@ public class InputHandler : MonoBehaviour
     public event Action OnMorphSliderChange;
     public int morphSliderValue;
 
-    public event Action OnKnock;
+    public event Action OnConverterShake;
     public bool knockButtonState;
     public float lastKnockTime = float.NegativeInfinity;
 
@@ -58,6 +58,11 @@ public class InputHandler : MonoBehaviour
         
         //Switching Room based on the Input from F4
         HandleRoomSwitch(Input.GetKey(KeyCode.F4));
+
+        if (Input.GetKeyDown(KeyCode.F7))
+        {
+            HandleConverterShake();
+        }
     }
 
     private void HandleGrab()
@@ -97,11 +102,11 @@ public class InputHandler : MonoBehaviour
         OnMorphSliderChange?.Invoke();
     }
 
-    public void HandleKnock()
+    public void HandleConverterShake()
     {
-        if (Time.time > lastKnockTime)
+        if (Time.time > lastKnockTime + 1f)
         {
-            OnKnock?.Invoke();
+            OnConverterShake?.Invoke();
             lastKnockTime = Time.time;
         }
     }

@@ -8,6 +8,8 @@ public class SnapPoint : MonoBehaviour
     [SerializeField] private Grabable occupyingObject;
     [SerializeField] private int occupyingObjectShapeID;
 
+    public bool isLightbulb;
+    
     public event Action<int> OnObjectPlaced;
     
     private void Awake()
@@ -49,11 +51,21 @@ public class SnapPoint : MonoBehaviour
 
     public void SetOccupyingObject(Grabable grabable)
     {
+        if (isLightbulb)
+        {
+            if (grabable.GetComponent<MorphHandler>()?.GetShapeID() != 0)
+            {
+                return;
+            }
+        }
+        
         occupyingObject = grabable;
         occupyingObject.rb.DOMove(transform.position, 0.5f).SetEase(Ease.OutQuint);
         occupyingObject.rb.isKinematic = true;
         snapCollider.enabled = false;       //Disable collider for SnapPoint since it's not needed while it has an occupying object.
-        occupyingObjectShapeID = occupyingObject.gameObject.GetComponent<MorphHandler>().GetShapeID();
+        
+        
+        occupyingObjectShapeID = occupyingObject.gameObject.GetComponent<MorphHandler>()?.GetShapeID() ?? -1;   //Returns -1 if MorphHandler isn't found
         
         OnObjectPlaced?.Invoke(occupyingObjectShapeID);
     }
