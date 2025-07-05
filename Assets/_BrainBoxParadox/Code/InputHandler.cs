@@ -57,7 +57,12 @@ public class InputHandler : MonoBehaviour
         }
         
         //Switching Room based on the Input from F4
-        HandleRoomSwitch(Input.GetKey(KeyCode.F4));
+        //HandleRoomSwitch(Input.GetKey(KeyCode.F4));
+        //Alternative Method more optimized for Keyboard use
+        if (Input.GetKeyDown(KeyCode.F4))
+        {
+            HandleRoomSwitchStatic();
+        }
 
         if (Input.GetKeyDown(KeyCode.F7))
         {
@@ -91,6 +96,15 @@ public class InputHandler : MonoBehaviour
             return;
 
         lastRoomSwitchState = state;
+        OnRoomStateSwitch?.Invoke();
+    }
+
+    /// <summary>
+    /// Alternative RoomSwitch method that works based on a single Impulse instead of the actual state of the switch (optimal for keyboard use)
+    /// </summary>
+    public void HandleRoomSwitchStatic()
+    {
+        lastRoomSwitchState = !lastRoomSwitchState;
         OnRoomStateSwitch?.Invoke();
     }
 
