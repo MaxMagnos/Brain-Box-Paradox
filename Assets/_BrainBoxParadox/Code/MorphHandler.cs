@@ -14,7 +14,7 @@ public class MorphHandler : MonoBehaviour
     private void Awake()
     {
         grabable = GetComponent<Grabable>();
-        UpdateShape();
+        ChangeShape(currentShapeID);
     }
 
     private void OnEnable()
@@ -39,7 +39,8 @@ public class MorphHandler : MonoBehaviour
     /// <param name="newShapeID"></param>
     public void ChangeShape(int newShapeID)
     {
-        if (lockCount > 0 || newShapeID == currentShapeID) return;
+        //if (lockCount > 0 || newShapeID == currentShapeID) return;
+        if (lockCount > 0) return;
         if (newShapeID >= shapes.Length)
         {
             Debug.LogWarning("MorphHandler: Shape ID is out of range. Falling back to default.");
@@ -48,12 +49,13 @@ public class MorphHandler : MonoBehaviour
         
         currentShapeID = newShapeID;
         
-        //Lock the Object if it is changed to the LightOrb
-        if (currentShapeID == 0)
+        //Lock the Object if it is changed to the LightOrb or Off-Lightbulb
+        if (currentShapeID <= 1)
         {
             lockCount++;
         }
         
+        Debug.Log("ChangeShape ran. Calling UpdateShape() with curShapeID: " + currentShapeID);
         UpdateShape();
     }
 
@@ -71,18 +73,30 @@ public class MorphHandler : MonoBehaviour
         }
     }
 
-    public void UnlockLightOrb()
+    public void UnlockMorphableObject()
     {
-        if (currentShapeID == 0 && lockCount > 0)
+        if (lockCount <= 0) return;
+
+        lockCount--;
+        if (currentShapeID == 0)
         {
-            lockCount--;
             ChangeShape(InputHandler.Ins.morphSliderValue);
         }
+        else if (currentShapeID == 1)
+        {
+            ChangeShape(0);
+        }
+    }
+
+    public void TurnOnLightbulb()   //TODO: Refactor this method because it sucks ass but i can't be bothered to find a more clever solution for the "UnlockMorphableObject" one.
+    {
+        lockCount = 0;
+        ChangeShape(2);
     }
 
     private void HandleSliderChange()   //TODO: Refactor this method so that the SliderChange event in the InputHandler carries it's value as a parameter
     {
-        ChangeShape(InputHandler.Ins.morphSliderValue);
+        ChangeShape(InputHandler.Ins.morphSliderValue +1);
     }
     
     private void HandleGrab()

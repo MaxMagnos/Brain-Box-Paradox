@@ -30,22 +30,18 @@ public class GrabHandler : MonoBehaviour
         }
 
         InputHandler.Ins.OnGrabPressed += Grab;
+        InputHandler.Ins.OnGrabReleased += Drop;
     }
 
     private void OnDisable()
     {
         InputHandler.Ins.OnGrabPressed -= Grab;
+        InputHandler.Ins.OnGrabReleased -= Drop;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            
-        }
-        
         HandleMove();
     }
 
@@ -53,6 +49,14 @@ public class GrabHandler : MonoBehaviour
     /// Main Function handling the high-level grab logic executed when Grab Button is pressed.
     /// </summary>
     public void Grab()
+    {
+        if (!currentGrabable)
+        {
+            currentGrabable = GetGrabable();
+        }
+    }
+
+    public void Drop()
     {
         if (currentGrabable)
         {
@@ -64,12 +68,8 @@ public class GrabHandler : MonoBehaviour
             }
             currentGrabable = null;
         }
-        else
-        {
-            currentGrabable = GetGrabable();
-        }
     }
-
+    
     public Grabable GetGrabable()
     {
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
@@ -127,11 +127,14 @@ public class GrabHandler : MonoBehaviour
 
     SnapPoint CheckForSnapPoint()
     {
+        int layerMask = 1 << LayerMask.NameToLayer("SnapPoint");
+        
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, grabRange))
+        if (Physics.Raycast(ray, out hit, grabRange, layerMask))
         {
             var snapPoint = hit.collider.gameObject.GetComponent<SnapPoint>();
+            if(snapPoint != null) {Debug.Log("Snappoint Hit on Drop: " + snapPoint.name);}
             return snapPoint;
         }
 

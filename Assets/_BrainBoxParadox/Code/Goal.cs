@@ -29,5 +29,9 @@ public class Goal : MonoBehaviour
             OnGoalAchieved?.Invoke();
             Debug.Log("GOAL ACHIEVED");
         }
+        else
+        {
+            Debug.Log("GOAL NOT ACHIEVED");
+        }
     }
 }
