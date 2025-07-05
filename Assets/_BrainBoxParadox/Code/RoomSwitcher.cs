@@ -10,8 +10,8 @@ enum RoomVariant
 
 public class RoomSwitcher : MonoBehaviour
 {
-    [SerializeField] private Transform anchor_A;
-    [SerializeField] private Transform anchor_B;
+    [SerializeField] private Vector3 anchor_A;
+    [SerializeField] private Vector3 anchor_B;
 
     private GameObject xrOrigin;
     private RoomVariant currentVariant = RoomVariant.A;
@@ -20,8 +20,6 @@ public class RoomSwitcher : MonoBehaviour
     {
         xrOrigin = this.GameObject();
         InputHandler.Ins.OnRoomStateSwitch += SwitchRoom;
-        
-        xrOrigin.transform.position = anchor_A.position;
     }
 
     private void OnDisable()
@@ -33,13 +31,30 @@ public class RoomSwitcher : MonoBehaviour
     {
         if (currentVariant == RoomVariant.A)
         {
-            xrOrigin.transform.position = anchor_A.position;
+            xrOrigin.transform.position = anchor_A;
             currentVariant = RoomVariant.B;
         }
         else
         {
-            xrOrigin.transform.position = anchor_B.position;
+            xrOrigin.transform.position = anchor_B;
             currentVariant = RoomVariant.A;
         }
+    }
+
+    public void SetAnchors(Vector3 newAnchorA, Vector3? newAnchorB = null)
+    {
+        anchor_A = newAnchorA;
+
+        if (!newAnchorB.HasValue)
+        {
+            anchor_B = anchor_A;      //Fallback: If there is no Anchor B then both anchors will bet set to A's position
+        }
+        else
+        {
+            anchor_B = newAnchorB.Value;
+        }
+
+        currentVariant = RoomVariant.A;
+        SwitchRoom();
     }
 }

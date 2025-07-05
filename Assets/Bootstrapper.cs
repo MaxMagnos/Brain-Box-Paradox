@@ -106,11 +106,14 @@ public class Bootstrapper : MonoBehaviour
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(primarySceneName));
         Debug.Log($"Active scene set to: {primarySceneName}");
         
-        //Finding Anchor_A in the scene and setting Player to it's position
+        //Finding Anchors in Scene and assigning them to the RoomSwitcher component
         var anchorA_Position = GameObject.FindGameObjectWithTag("Anchor_A").transform.position;
+        var anchorB_Position = GameObject.FindGameObjectWithTag("Anchor_B")?.transform.position;
         if (anchorA_Position != null)
         {
-            playerObject.transform.position = anchorA_Position;
+            playerObject.GetComponent<RoomSwitcher>().SetAnchors(anchorA_Position, anchorB_Position);
         }
+        
+        
     }
 }

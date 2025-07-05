@@ -7,12 +7,9 @@
     <list default="true" id="0e0d6c51-2146-4393-ae2c-20869b4457e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bootstrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSwitcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/Bootstrap.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2 Switched.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2 Switched.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +102,8 @@
       <workItem from="1751536132927" duration="2967000" />
       <workItem from="1751638569092" duration="1789000" />
       <workItem from="1751646306852" duration="1380000" />
+      <workItem from="1751735470846" duration="6000" />
+      <workItem from="1751735507550" duration="987000" />
     </task>
     <servers />
   </component>
