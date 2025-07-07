@@ -12,8 +12,10 @@ public class Lightbulb : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("OnTriggerEnter: " + other.gameObject.name);
         if (other.CompareTag("LightOrb"))
         {
+            Debug.Log("LightOrb entered");
             morphHandler.TurnOnLightbulb();
             Destroy(other.transform.parent.gameObject);
         }
