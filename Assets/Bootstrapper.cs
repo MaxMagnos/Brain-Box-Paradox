@@ -29,6 +29,8 @@ public class Bootstrapper : MonoBehaviour
 
     private int currentLevelIndex = -1;
 
+    private GameObject playerObject;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -38,6 +40,8 @@ public class Bootstrapper : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+        
+        playerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void Start()
@@ -101,5 +105,15 @@ public class Bootstrapper : MonoBehaviour
         string primarySceneName = newLevel.sceneNames[0];
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(primarySceneName));
         Debug.Log($"Active scene set to: {primarySceneName}");
+        
+        //Finding Anchors in Scene and assigning them to the RoomSwitcher component
+        var anchorA_Position = GameObject.FindGameObjectWithTag("Anchor_A").transform.position;
+        var anchorB_Position = GameObject.FindGameObjectWithTag("Anchor_B")?.transform.position;
+        if (anchorA_Position != null)
+        {
+            playerObject.GetComponent<RoomSwitcher>().SetAnchors(anchorA_Position, anchorB_Position);
+        }
+        
+        
     }
 }

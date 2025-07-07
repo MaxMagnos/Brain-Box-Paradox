@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LightOrb
   - SpawnPoint
+  - Anchor_A
+  - Anchor_B
   layers:
   - Default
   - TransparentFX

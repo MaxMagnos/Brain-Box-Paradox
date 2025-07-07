@@ -17,6 +17,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3234615724362984097, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234615724362984097, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -120,7 +124,7 @@ MonoBehaviour:
   snapCollider: {fileID: 3818273679493150650}
   occupyingObject: {fileID: 0}
   occupyingObjectShapeID: 0
-  isLightbulb: 0
+  isLightbulb: 1
 --- !u!114 &6937409430489634751
 MonoBehaviour:
   m_ObjectHideFlags: 0

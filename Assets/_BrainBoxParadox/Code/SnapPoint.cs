@@ -51,18 +51,20 @@ public class SnapPoint : MonoBehaviour
 
     public void SetOccupyingObject(Grabable grabable)
     {
+        snapCollider.enabled = false;       //Disable collider for SnapPoint since it's not needed while it has an occupying object.
+        
         if (isLightbulb)
         {
             if (grabable.GetComponent<MorphHandler>()?.GetShapeID() != 0)
             {
                 return;
             }
+            snapCollider.enabled = true; //Re-Enable collider for the Lightbulb Trigger to work         //TODO: This entire thing could/should be replaced by a coroutine of some sort. Using a physical-check to turn on the lightbulb is not very efficient.
         }
         
         occupyingObject = grabable;
         occupyingObject.rb.DOMove(transform.position, 0.5f).SetEase(Ease.OutQuint);
         occupyingObject.rb.isKinematic = true;
-        snapCollider.enabled = false;       //Disable collider for SnapPoint since it's not needed while it has an occupying object.
         
         
         occupyingObjectShapeID = occupyingObject.gameObject.GetComponent<MorphHandler>()?.GetShapeID() ?? -1;   //Returns -1 if MorphHandler isn't found

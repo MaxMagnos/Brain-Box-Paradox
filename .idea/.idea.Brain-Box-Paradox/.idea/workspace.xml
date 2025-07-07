@@ -6,29 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0e0d6c51-2146-4393-ae2c-20869b4457e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Textures/Clouds.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Textures/Clouds.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Textures/Sky.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Textures/Sky.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Converter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Converter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/FauxInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/FauxInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/GrabHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/GrabHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Grabable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Grabable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/InputHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/MorphHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/MorphHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lightbulb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lightbulb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/UI/XR Device Simulator UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/UI/XR Device Simulator UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/SnapPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/SnapPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Converter Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Converter Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Morphable Object.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Morphable Object.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2 Switched.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2 Switched.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max Baking Set.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max Baking Set.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/GrabableObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/GrabableObject.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/LightBulb Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/LightBulb Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +22,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PopEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TutorialHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@6e225a61188c/Editor/Volume/VolumeComponentEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@4a7a2c416b77/Editor/PostProcessing/PaniniProjectionEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@4a7a2c416b77/Editor/PostProcessing/ScreenSpaceLensFlareEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -121,6 +106,10 @@
       <workItem from="1751536132927" duration="2967000" />
       <workItem from="1751638569092" duration="1789000" />
       <workItem from="1751646306852" duration="1380000" />
+      <workItem from="1751735470846" duration="6000" />
+      <workItem from="1751735507550" duration="987000" />
+      <workItem from="1751807840061" duration="7315000" />
+      <workItem from="1751890564160" duration="912000" />
     </task>
     <servers />
   </component>
