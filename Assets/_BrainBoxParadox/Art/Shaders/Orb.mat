@@ -128,7 +128,7 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 0
     - _ZWrite: 0
-    - _float: 99999
+    - _float: 111111
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0.8145139, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
