@@ -221,6 +221,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  syncRate: 0
+  syncRateIncrease: 30
+  syncRateDecay: 1
+  calibrationTime: 0
+  calibrationComplete: 0
 --- !u!1 &8363279095161794148
 GameObject:
   m_ObjectHideFlags: 0

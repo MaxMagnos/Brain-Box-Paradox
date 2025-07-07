@@ -7,7 +7,7 @@ public class PopEffect : MonoBehaviour
 {
     [Header("Pop-In Settings")]
     [Tooltip("The scale the object will animate FROM when enabled.")]
-    [SerializeField] private Vector3 startScale = Vector3.zero; // Starts invisible/very small
+    private Vector3 startScale = new Vector3(0.1f, 0.1f, 0.1f); // Starts invisible/very small
     [Tooltip("The scale the object will animate TO when enabled.")]
     [SerializeField] private Vector3 endScale = Vector3.one; // Ends at its normal size
 
@@ -50,15 +50,20 @@ public class PopEffect : MonoBehaviour
             });
     }
 
-    // Optional: Reset scale in editor for easier placement if needed
-    private void OnValidate()
+    public void DestroyWithPop()
     {
-        // Only apply if in editor and not playing, to help with setup
-        if (Application.isEditor && !Application.isPlaying)
-        {
-            if (endScale == Vector3.zero) endScale = Vector3.one; // Default to normal size
-        }
+        transform.DOScale(startScale, animationDurationOut)
+            .SetEase(easeTypeOut)
+            .OnComplete(() =>
+            {
+                // Optional: If you want to ensure the scale is reset after disable,
+                // though OnEnable will set it back. Useful if the object
+                // might be re-enabled without being fully scaled down.
+                transform.localScale = startScale;
+                Destroy(this.GameObject());
+            });
     }
+    
 
 
     private void Update()

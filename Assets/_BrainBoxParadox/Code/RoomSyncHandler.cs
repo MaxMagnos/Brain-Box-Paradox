@@ -1,14 +1,31 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class RoomSyncHandler : MonoBehaviour
 {
+    private event Action OnCalibrationCompleted;
+    
     [SerializeField] private PuzzleData[] puzzles;
     [SerializeField] private GameObject puzzleManagerPrefab;
     
     [SerializeField] public Transform[] spawnPoints;
+    
+    [Header("Sync Rate Related")]
+    [Tooltip("Current SyncRate. >100 makes calibration fill up.")]
+    [SerializeField] private float syncRate;
+    
+    [Tooltip("Amount of SyncRate increase per solved puzzle.")]
+    [SerializeField] private float syncRateIncrease;
+    
+    [Tooltip("Amount of SyncRate decrease per second.")]
+    [SerializeField] private float syncRateDecay;
+    
+    [Header("Calibration Related")]
+    [SerializeField] private float calibrationTime;
+    [SerializeField] private bool calibrationComplete = false;
     
     private PuzzleManager puzzleManager;
 
@@ -32,9 +49,19 @@ public class RoomSyncHandler : MonoBehaviour
         puzzleManager = puzzleManagerObj.GetComponent<PuzzleManager>();
         
         //Subscribe to puzzle completed here
-        //
+        puzzleManager.OnPuzzleCompleted += PuzzleComplete;
         
         puzzleManager.Initialize(nextPuzzle, spawnPoints);
+    }
+    private void PuzzleComplete()
+    {
+        puzzleManager.OnPuzzleCompleted -= PuzzleComplete;
+        syncRate += syncRateIncrease;
+        
+        
+        if(calibrationComplete) {return;}
+        
+        SpawnNextPuzzle();
     }
 
     /// <summary>
@@ -61,5 +88,35 @@ public class RoomSyncHandler : MonoBehaviour
         spawnPoints = foundPoints.ToArray();
 
         Debug.Log($"Gathered {spawnPoints.Length} spawn points.");
+    }
+
+
+    private void Update()
+    {
+        if(calibrationComplete) {return;}
+        
+        if (syncRate > 100)
+        {
+            calibrationTime += Time.deltaTime;
+            if (calibrationTime >= 60f)
+            {
+                StartCoroutine(CalibrationComplete());
+            }
+        }
+        
+        syncRate = Mathf.Max(0f, syncRate - (syncRateDecay * Time.deltaTime));
+    }
+
+    private IEnumerator CalibrationComplete()
+    {
+        calibrationComplete = true;
+        PuzzleComplete();
+        
+        //TODO: Add some sound here
+        
+        yield return new WaitForSeconds(3f);
+        OnCalibrationCompleted?.Invoke();
+        
+        Debug.Log("Calibration for this Room is complete.");
     }
 }

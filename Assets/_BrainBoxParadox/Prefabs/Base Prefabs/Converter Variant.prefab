@@ -67,6 +67,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2078379757762873456, guid: cd57f2f70dd014b449e40492af681c21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4042102414282656463}
+    - targetCorrespondingSourceObject: {fileID: 2078379757762873456, guid: cd57f2f70dd014b449e40492af681c21, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3034491593591885224}
   m_SourcePrefab: {fileID: 100100000, guid: cd57f2f70dd014b449e40492af681c21, type: 3}
 --- !u!1 &8715472376237492282 stripped
 GameObject:
@@ -88,3 +91,21 @@ MonoBehaviour:
   snapPoint: {fileID: 0}
   morphHandler: {fileID: 0}
   convertableID: 4
+--- !u!114 &3034491593591885224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715472376237492282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a3990da4d834446ab373ee2fefa21f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 1, y: 1, z: 1}
+  animationDurationIn: 0.3
+  easeTypeIn: 27
+  animationDurationOut: 0.3
+  easeTypeOut: 27

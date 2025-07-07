@@ -265,7 +265,7 @@ MonoBehaviour:
   gameLevels:
   - levelName: Test1
     sceneNames:
-    - prototyping-max
+    - Room 1 proto
   - levelName: Level 1
     sceneNames:
     - Room 1
