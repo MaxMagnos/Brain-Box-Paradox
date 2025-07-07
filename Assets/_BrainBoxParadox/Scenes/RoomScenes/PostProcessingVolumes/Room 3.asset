@@ -890,7 +890,7 @@ MonoBehaviour:
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.92323345, g: 1, b: 0.8820755, a: 1}
+    m_Value: {r: 0.77493197, g: 1, b: 0.23137254, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
