@@ -19,9 +19,9 @@ public class Level
 /// Manages loading and unloading of game levels, including levels composed of multiple scenes.
 /// This object persists across all scene loads to manage the game flow.
 /// </summary>
-public class Bootstrapper : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
-    public static Bootstrapper Instance { get; private set; }
+    public static LevelManager Instance { get; private set; }
 
     [Header("Scene Configuration")]
     [Tooltip("Define all game levels here. Each level can be made of one or more scenes.")]
@@ -30,6 +30,7 @@ public class Bootstrapper : MonoBehaviour
     private int currentLevelIndex = -1;
 
     private GameObject playerObject;
+    private RoomSyncHandler currentRoomSyncHandler;
 
     private void Awake()
     {
@@ -67,6 +68,11 @@ public class Bootstrapper : MonoBehaviour
 
     private IEnumerator TransitionToNextScene()
     {
+        if (currentRoomSyncHandler)
+        {
+            currentRoomSyncHandler.OnCalibrationCompleted -= LoadNextLevel;
+        }
+        
         // 1. UNLOAD the previous level's scenes.
         if (currentLevelIndex >= 0)
         {
@@ -114,6 +120,12 @@ public class Bootstrapper : MonoBehaviour
             playerObject.GetComponent<RoomSwitcher>().SetAnchors(anchorA_Position, anchorB_Position);
         }
         
+        //Find RoomSyncHandler and subscribe if found
+        currentRoomSyncHandler = GameObject.FindGameObjectWithTag("RoomSyncHandler").GetComponent<RoomSyncHandler>();
+        if (currentRoomSyncHandler)
+        {
+            currentRoomSyncHandler.OnCalibrationCompleted += LoadNextLevel;
+        }
         
     }
 }

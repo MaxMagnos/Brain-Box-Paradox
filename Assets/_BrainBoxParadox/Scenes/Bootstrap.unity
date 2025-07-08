@@ -188,6 +188,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_XR_Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 8673843519780566324, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: clearColorMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673843519780566324, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: backgroundColorHDR.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673843519780566324, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: backgroundColorHDR.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673843519780566324, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: backgroundColorHDR.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9068128208119445261, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -244,7 +260,7 @@ GameObject:
   - component: {fileID: 1227682178}
   - component: {fileID: 1227682177}
   m_Layer: 0
-  m_Name: Bootstrapper
+  m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -263,28 +279,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameLevels:
-  - levelName: Test1
+  - levelName: Standby
+    sceneNames:
+    - Standby proto
+  - levelName: Room 1
     sceneNames:
     - Room 1 proto
-  - levelName: Level 1
+  - levelName: Room 2
     sceneNames:
-    - Room 1
-  - levelName: Level 2
-    sceneNames:
-    - Room 2
-    - Room 2 Switched
-  - levelName: Level 3
-    sceneNames:
-    - Room 3
-    - Room 3 Switched
-  - levelName: Level 4
-    sceneNames:
-    - Room 4
-    - Room 4 Switched
-  - levelName: Level 4
-    sceneNames:
-    - Room 5
-    - Room 5 Switched
+    - Room 2 proto
+    - Room 2 Switched proto
 --- !u!4 &1227682178
 Transform:
   m_ObjectHideFlags: 0

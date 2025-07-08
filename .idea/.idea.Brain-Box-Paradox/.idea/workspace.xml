@@ -6,19 +6,38 @@
   <component name="ChangeListManager">
     <list default="true" id="0e0d6c51-2146-4393-ae2c-20869b4457e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PopEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PopEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bootstrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bootstrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KeepAcrossScenes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KeepAcrossScenes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lightbulb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lightbulb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialHandler.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Converter Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Converter Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/GoalObject Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/GoalObject Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Morphable Object.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Morphable Object.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/PuzzleManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/PuzzleManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/RoomSyncHandler.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/RoomSyncHandler.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/Bootstrap.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 2 Switched.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 2 Switched.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 3 Switched.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 3 Switched.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 3.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 4 Switched.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 4 Switched.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 4 switch.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 4 switch.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 4.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 4.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 5 switched.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 5 switched.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 5.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 5.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

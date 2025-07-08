@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class RoomSyncHandler : MonoBehaviour
 {
-    private event Action OnCalibrationCompleted;
+    public event Action OnCalibrationCompleted;
     
     [SerializeField] private PuzzleData[] puzzles;
     [SerializeField] private GameObject puzzleManagerPrefab;
@@ -110,7 +110,8 @@ public class RoomSyncHandler : MonoBehaviour
     private IEnumerator CalibrationComplete()
     {
         calibrationComplete = true;
-        PuzzleComplete();
+        puzzleManager.OnPuzzleCompleted -= PuzzleComplete;
+        puzzleManager.HandleGoalAchieved();
         
         //TODO: Add some sound here
         

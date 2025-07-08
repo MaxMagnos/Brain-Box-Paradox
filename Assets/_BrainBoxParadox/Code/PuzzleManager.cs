@@ -47,7 +47,7 @@ public class PuzzleManager : MonoBehaviour
         }
     }
 
-    private void HandleGoalAchieved()
+    public void HandleGoalAchieved()
     {
         StartCoroutine(DestroyWithAnimation());
     }

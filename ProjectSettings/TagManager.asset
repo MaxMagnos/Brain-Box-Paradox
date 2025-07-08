@@ -8,6 +8,7 @@ TagManager:
   - SpawnPoint
   - Anchor_A
   - Anchor_B
+  - RoomSyncHandler
   layers:
   - Default
   - TransparentFX
