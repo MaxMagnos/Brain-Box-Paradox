@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b29b2effd5376343bd073d8dbe893ff
+guid: 9c1a3512e19d5534296aed01be1691f2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Hand.001
-    second: {fileID: 2100000, guid: 9d0dd5538166a574fafc7baee48000c9, type: 2}
+      name: TT_checker_512x512_UV_GRID
+    second: {fileID: 2100000, guid: c3cd2450ee968cc4c8f3fb407ecc4907, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

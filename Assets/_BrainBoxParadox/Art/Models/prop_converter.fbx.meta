@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b29b2effd5376343bd073d8dbe893ff
+guid: bcf2d34c2c1aaca45bd3692a5026035f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Hand.001
-    second: {fileID: 2100000, guid: 9d0dd5538166a574fafc7baee48000c9, type: 2}
+      name: decor_converter_common
+    second: {fileID: 2100000, guid: 8ff0bb094d2ab8a4783c0bbe652b1e5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_converter_corners
+    second: {fileID: 2100000, guid: 8ff0bb094d2ab8a4783c0bbe652b1e5e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

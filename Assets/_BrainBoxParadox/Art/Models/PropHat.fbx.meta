@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b29b2effd5376343bd073d8dbe893ff
+guid: b981b633ff9b05343bff14e630fafb01
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Hand.001
-    second: {fileID: 2100000, guid: 9d0dd5538166a574fafc7baee48000c9, type: 2}
+      name: Button
+    second: {fileID: 2100000, guid: a2ee8bdd226f82f45ade5c18c1a03255, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat_Base
+    second: {fileID: 2100000, guid: 7f690508f9cf56d48ae2a3aac1ce3c4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat_Ribbon
+    second: {fileID: 2100000, guid: de405bf80fa4e4e47b3cbf891de42248, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

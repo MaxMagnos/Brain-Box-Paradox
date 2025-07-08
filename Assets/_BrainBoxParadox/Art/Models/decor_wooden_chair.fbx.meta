@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b29b2effd5376343bd073d8dbe893ff
+guid: f09a83a9bc0541746973970fc7f82c03
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Hand.001
-    second: {fileID: 2100000, guid: 9d0dd5538166a574fafc7baee48000c9, type: 2}
+      name: decor_chair_common
+    second: {fileID: 2100000, guid: 9e376398aad2c204f902e40b1dd2db79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_chair_pillow
+    second: {fileID: 2100000, guid: 9e376398aad2c204f902e40b1dd2db79, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
