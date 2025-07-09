@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9e4ed5a6f56fb4ebd693e39684f36f, type: 3}
   m_Name: VolumetricClouds
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -368,16 +368,16 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0.33
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.02
   scatter:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.07
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0.8183851, b: 1, a: 1}
+    m_Value: {r: 1, g: 0, b: 0.056438446, a: 1}
   dirtTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -510,7 +510,7 @@ MonoBehaviour:
     m_Value: 20000
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.011629952, b: 0, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   groundColorTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -584,7 +584,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 13
+    m_Value: 12.853659
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -776,10 +776,10 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 2.43
+    m_Value: 1.29
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0.254
+    m_Value: 0.406
   radius:
     m_OverrideState: 1
     m_Value: 0.48
@@ -881,16 +881,16 @@ MonoBehaviour:
     m_Value: 0.4
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 6.48
+    m_Value: 11.65
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 29.7
+    m_Value: 1.1
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.5194229, g: 0.6132076, b: 0, a: 1}
+    m_Value: {r: 0.7928543, g: 1, b: 0, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
