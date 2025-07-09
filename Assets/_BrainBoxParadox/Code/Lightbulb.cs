@@ -5,9 +5,12 @@ public class Lightbulb : MonoBehaviour
 {
     private MorphHandler morphHandler;
 
+    private Collider snapCollider;
+
     private void Start()
     {
         morphHandler = gameObject.GetComponentInParent<MorphHandler>();
+        snapCollider = gameObject.GetComponent<Collider>();
     }
 
     private void OnTriggerEnter(Collider other)

@@ -12,10 +12,21 @@ public class Converter : MonoBehaviour
     [SerializeField] private int convertableID;
     
     
+    [Header("Converter Graphics Related")]
+    [SerializeField] private GameObject boxModel;
+    [SerializeField] private Material[] iconMaterials;
+
+
+    private void InitializeGraphics()
+    {
+        var meshRenderer = boxModel.GetComponent<MeshRenderer>();
+        meshRenderer.material = iconMaterials[convertableID];
+    }
     
     private void Start()
     {
         snapPoint = GetComponent<SnapPoint>();
+        InitializeGraphics();
     }
 
     private void OnEnable()
@@ -30,14 +41,16 @@ public class Converter : MonoBehaviour
     private void Convert()
     {
         morphHandler = snapPoint.GetOccupyingObject().GetComponent<MorphHandler>();
-        
         if (!morphHandler) return;
+        
         var currentShapeID = morphHandler.GetShapeID();
-        if (currentShapeID != convertableID) return;
-
-        if (currentShapeID <= 1)
+        if (currentShapeID == 0)
         {
             morphHandler.UnlockMorphableObject();
+        }
+        else if (currentShapeID != convertableID)
+        {
+            return;
         }
         else
         {

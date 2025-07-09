@@ -93,6 +93,12 @@ public class RoomSyncHandler : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            syncRate += 100;
+            calibrationTime += 60;
+        }
+        
         if(calibrationComplete) {return;}
         
         if (syncRate > 100)

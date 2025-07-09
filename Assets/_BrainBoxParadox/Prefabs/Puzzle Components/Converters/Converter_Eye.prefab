@@ -57,7 +57,8 @@ PrefabInstance:
       value: Converter_Eye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 9140108429164531271, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}

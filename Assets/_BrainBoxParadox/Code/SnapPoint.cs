@@ -51,7 +51,6 @@ public class SnapPoint : MonoBehaviour
 
     public void SetOccupyingObject(Grabable grabable)
     {
-        snapCollider.enabled = false;       //Disable collider for SnapPoint since it's not needed while it has an occupying object.
         
         if (isLightbulb)
         {
@@ -60,6 +59,10 @@ public class SnapPoint : MonoBehaviour
                 return;
             }
             snapCollider.enabled = true; //Re-Enable collider for the Lightbulb Trigger to work         //TODO: This entire thing could/should be replaced by a coroutine of some sort. Using a physical-check to turn on the lightbulb is not very efficient.
+        }
+        else
+        {
+            snapCollider.enabled = false;       //Disable collider for SnapPoint since it's not needed while it has an occupying object.
         }
         
         occupyingObject = grabable;
