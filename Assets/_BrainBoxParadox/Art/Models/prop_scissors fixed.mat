@@ -7,12 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: prop_scissors Variant
+  m_Name: prop_scissors fixed
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_Parent: {fileID: -3205852530073361920, guid: 6f5ab5b020fe21d43aff4f8993d709a7, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -31,17 +32,20 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 1b9feadb8f74fde478ea2ee78f8adba9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 12d332deca14dda42999bd27993c3d9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Metallic: 0.75
-    - _Smoothness: 0.35
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _Metallic: 0
+    - _NormalMapSpace: 0
+    - _OpaqueCullMode: 2
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6183868940749147410
+--- !u!114 &4488299052536944069
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
