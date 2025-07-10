@@ -359,7 +359,7 @@ MonoBehaviour:
   - levelName: '#5'
     sceneNames:
     - Room 5
-    - Room 5 Switched
+    - Room 5 switched
   - levelName: '#6'
     sceneNames:
     - Room 2 proto
