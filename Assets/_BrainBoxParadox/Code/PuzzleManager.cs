@@ -12,10 +12,21 @@ public class PuzzleManager : MonoBehaviour
 
     private Goal goal;
 
-    public void Initialize(PuzzleData data, Transform[] spawnPoints)
+public void Initialize(PuzzleData data, Transform[] spawnPoints)
     {
         // Convert the array to a List for easy removal of used points.
         var remainingSpawnPoints = new System.Collections.Generic.List<Transform>(spawnPoints);
+        
+        
+
+        Transform anchorA = GameObject.FindGameObjectWithTag("Anchor_A").transform;
+        // Find Anchor B's transform, but safely handle the case where it might not exist.
+        GameObject anchorB_GO = GameObject.FindGameObjectWithTag("Anchor_B");
+        Transform anchorB = null;
+        if (anchorB_GO != null)
+        {
+            anchorB = anchorB_GO.transform;
+        }
 
         foreach (var obj in data.puzzleObjects)
         {
@@ -29,11 +40,37 @@ public class PuzzleManager : MonoBehaviour
             // Pick a random index from the current list of available points.
             int pointIndex = Random.Range(0, remainingSpawnPoints.Count);
             Transform spawnTransform = remainingSpawnPoints[pointIndex];
+
+            // Instantiate the object at the chosen position.
+            GameObject newInstance = Instantiate(obj, spawnTransform.position, Quaternion.identity, this.transform);
+            
+            //Add newInstance to puzzleComponents
+            puzzleComponents.Add(newInstance);
+
+            //Rotation Related
+            Vector3 nearestAnchorPos = anchorA.position;  //Default case is looking at AnchorA
+            if (anchorB != null)
+            {
+                float distToA = Vector3.Distance(newInstance.transform.position, anchorA.position);
+                float distToB = Vector3.Distance(newInstance.transform.position, anchorB.position);
+
+                if (distToB < distToA)
+                {
+                    nearestAnchorPos = anchorB.position;
+                }
+            }
+            
+            Vector3 directionToAnchor = nearestAnchorPos - newInstance.transform.position;
+
+            if (directionToAnchor != Vector3.zero)
+            {
+                Quaternion lookRotation = Quaternion.LookRotation(directionToAnchor);
+                newInstance.transform.rotation = lookRotation;
+            }
+            
+            
+            // Remove the used spawn point from the list so it can't be chosen again.
             remainingSpawnPoints.RemoveAt(pointIndex);
-
-            // Instantiate the object at the chosen position, as a child of the PuzzleManager and adding it to List.
-            puzzleComponents.Add(Instantiate(obj, spawnTransform.position, Quaternion.identity, this.transform));
-
         }
 
         goal = GetComponentInChildren<Goal>();
