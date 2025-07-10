@@ -93,10 +93,11 @@ public class RoomSyncHandler : MonoBehaviour
 
     private void Update()
     {
+        //Cheat Function for Easy Level-Finish
         if (Input.GetKeyDown(KeyCode.C))
         {
-            syncRate += 100;
-            calibrationTime += 60;
+            syncRate += 150;
+            calibrationTime += 70;
         }
         
         if(calibrationComplete) {return;}

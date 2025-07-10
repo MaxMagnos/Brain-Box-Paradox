@@ -147,7 +147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &505871091386471900
 Transform:
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
   animationDurationIn: 0.3
   easeTypeIn: 27
   animationDurationOut: 0.3
-  easeTypeOut: 27
+  easeTypeOut: 26
 --- !u!4 &8300823205919402163 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2457750113152617390, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
@@ -705,6 +705,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8537973270209994682, guid: e0fbdaa77d892014694c893102f34cbc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2751d7f61f4475e4a8d85a2cae3bbc7a, type: 2}
     - target: {fileID: -4918545606103775333, guid: e0fbdaa77d892014694c893102f34cbc, type: 3}
       propertyPath: m_LocalScale.x
       value: 25
