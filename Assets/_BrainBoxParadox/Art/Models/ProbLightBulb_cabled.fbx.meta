@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0fbdaa77d892014694c893102f34cbc
+guid: c07b46f95a67ee34c9cecdb201b28f9d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -34,6 +34,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Small_Wire_R
     second: {fileID: 2100000, guid: 4154a4003af3e5d429141f0e9008f830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Socket
+    second: {fileID: 2100000, guid: 22c31b0f06531a34db4c50412f1b3e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: String
+    second: {fileID: 2100000, guid: 22c31b0f06531a34db4c50412f1b3e26, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -59,36 +69,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Light_Bulb_Breath_Idle
-      takeName: LightBulb_Breath_Idle.001
-      internalID: 6435017300041040885
-      firstFrame: 0
-      lastFrame: 99
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []

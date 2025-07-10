@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c3eb5c297a24cc46b6d4c6b1aaf5e72
+guid: ab5d492925dea8a408456484d21350b1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: decor_converter_common
-    second: {fileID: 2100000, guid: 8ff0bb094d2ab8a4783c0bbe652b1e5e, type: 2}
+      name: Big_Wire_R
+    second: {fileID: 2100000, guid: 99e644c30b061c346ba442ce948ead42, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: decor_converter_corners
-    second: {fileID: 2100000, guid: 8ff0bb094d2ab8a4783c0bbe652b1e5e, type: 2}
+      name: Glas
+    second: {fileID: 2100000, guid: 3197ad41b39387943b145e95242ea0ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Wire
+    second: {fileID: 2100000, guid: d001e7c4cb122f447a68335ee2280846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Piece_End
+    second: {fileID: 2100000, guid: ea4e9dc75b5f9914c86287ac05e1a989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Piece_Middle
+    second: {fileID: 2100000, guid: ae5b01041cf1f054da0037ea9c311b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Small_Wire_R
+    second: {fileID: 2100000, guid: 4154a4003af3e5d429141f0e9008f830, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

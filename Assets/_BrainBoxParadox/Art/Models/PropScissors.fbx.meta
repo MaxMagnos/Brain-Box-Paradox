@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38c549d298ae7bc4abfa82f3069c171b
+guid: abc55a5657863054a9fa98c86514a82a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: prop_scissors
-    second: {fileID: 2100000, guid: 4b7c78245c78558459617ad1a4ba2648, type: 2}
+    second: {fileID: 2100000, guid: 243cdfb6f58e5a04c913162e0eadf85f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

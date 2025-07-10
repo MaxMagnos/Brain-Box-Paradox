@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3dea3a987fdd7214e8b3122277ae6a40
+guid: 38c549d298ae7bc4abfa82f3069c171b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,43 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Big_Wire_R
-    second: {fileID: 2100000, guid: 99e644c30b061c346ba442ce948ead42, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glas
-    second: {fileID: 2100000, guid: 3197ad41b39387943b145e95242ea0ed, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Light_Wire
-    second: {fileID: 2100000, guid: d001e7c4cb122f447a68335ee2280846, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal_Piece_End
-    second: {fileID: 2100000, guid: ea4e9dc75b5f9914c86287ac05e1a989, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal_Piece_Middle
-    second: {fileID: 2100000, guid: ae5b01041cf1f054da0037ea9c311b6b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Small_Wire_R
-    second: {fileID: 2100000, guid: 4154a4003af3e5d429141f0e9008f830, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Socket
-    second: {fileID: 2100000, guid: 22c31b0f06531a34db4c50412f1b3e26, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: String
-    second: {fileID: 2100000, guid: 22c31b0f06531a34db4c50412f1b3e26, type: 2}
+      name: prop_scissors
+    second: {fileID: 2100000, guid: 4b7c78245c78558459617ad1a4ba2648, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -69,36 +34,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Light_Bulb_roped_Breath_Idle
-      takeName: LightBulb_Breath_Idle.001
-      internalID: 6435017300041040885
-      firstFrame: 0
-      lastFrame: 99
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
