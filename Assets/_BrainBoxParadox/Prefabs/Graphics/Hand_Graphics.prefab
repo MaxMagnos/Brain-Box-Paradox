@@ -48,6 +48,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6924742469780154445, guid: 9b29b2effd5376343bd073d8dbe893ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1329358
+      objectReference: {fileID: 0}
+    - target: {fileID: -6924742469780154445, guid: 9b29b2effd5376343bd073d8dbe893ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.8320823
+      objectReference: {fileID: 0}
+    - target: {fileID: -897994662729340238, guid: 9b29b2effd5376343bd073d8dbe893ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -897994662729340238, guid: 9b29b2effd5376343bd073d8dbe893ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b29b2effd5376343bd073d8dbe893ff, type: 3}
       propertyPath: m_Name
       value: Hand_Graphics
