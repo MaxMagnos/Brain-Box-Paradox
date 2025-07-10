@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 1072705973174832416}
   m_Layer: 0
   m_Name: RoomSyncHandler
-  m_TagString: Untagged
+  m_TagString: RoomSyncHandler
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -221,6 +221,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  syncRate: 0
+  syncRateIncrease: 30
+  syncRateDecay: 1
+  calibrationTime: 0
+  calibrationComplete: 0
 --- !u!1 &8363279095161794148
 GameObject:
   m_ObjectHideFlags: 0

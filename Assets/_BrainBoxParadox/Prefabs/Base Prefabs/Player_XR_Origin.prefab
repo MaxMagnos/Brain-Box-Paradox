@@ -78,8 +78,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34386034540be8a44ad16cc10126cf7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anchor_A: {fileID: 0}
-  anchor_B: {fileID: 0}
+  anchor_A: {x: 0, y: 0, z: 0}
+  anchor_B: {x: 0, y: 0, z: 0}
+  grabHandler: {fileID: 7253933934457512439}
 --- !u!114 &2718449600002013015
 MonoBehaviour:
   m_ObjectHideFlags: 0
