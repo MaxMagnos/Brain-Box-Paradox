@@ -66,15 +66,28 @@ public class SnapPoint : MonoBehaviour
         }
         
         occupyingObject = grabable;
-        occupyingObject.rb.DOMove(transform.position, 0.5f).SetEase(Ease.OutQuint);
-        occupyingObject.rb.isKinematic = true;
-        
         
         occupyingObjectShapeID = occupyingObject.gameObject.GetComponent<MorphHandler>()?.GetShapeID() ?? -1;   //Returns -1 if MorphHandler isn't found
         
-        OnObjectPlaced?.Invoke(occupyingObjectShapeID);
+        occupyingObject.rb.isKinematic = true;
+        occupyingObject.rb.DOMove(transform.position, 0.5f).SetEase(Ease.OutQuint)
+            .OnComplete(ObjectPlaced);
+
     }
 
+    private void ObjectPlaced()
+    {
+        Debug.Log("ObjectPlaced");
+        
+        //Stupid ass If-Statement for every type of PuzzleObject:
+        if (occupyingObjectShapeID == 3) //Eye
+        {
+            //transform.Find
+        }
+        
+        OnObjectPlaced?.Invoke(occupyingObjectShapeID);
+    }
+    
     public GameObject GetOccupyingObject()
     {
         return occupyingObject.gameObject;
