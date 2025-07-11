@@ -9,6 +9,7 @@ TagManager:
   - Anchor_A
   - Anchor_B
   - RoomSyncHandler
+  - GraphicsObject
   layers:
   - Default
   - TransparentFX

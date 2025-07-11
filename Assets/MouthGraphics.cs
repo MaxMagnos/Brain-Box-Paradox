@@ -9,8 +9,8 @@ public class MouthGraphics : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponentInChildren<Animator>();
-        goal = GetComponent<Goal>();
+        animator = GetComponent<Animator>();
+        goal = GetComponentInParent<Goal>();
 
         goal.OnGoalAchieved += PlaySwallowAnimation;
     }
@@ -19,6 +19,11 @@ public class MouthGraphics : MonoBehaviour
     private void PlaySwallowAnimation()
     {
         animator.SetTrigger("PlaySwallow");
+    }
+
+    public void AnimationEventTest()
+    {
+        Debug.Log("AnimationEventTest ran properly!");
     }
 }
  

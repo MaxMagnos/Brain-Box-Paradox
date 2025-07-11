@@ -40,6 +40,10 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6925720573688654978, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8300823205919402163, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.333

@@ -37,7 +37,7 @@ public class Goal : MonoBehaviour
 
     private IEnumerator GoalAchieved()
     {
-        yield return new WaitForSeconds(0.5f);
         OnGoalAchieved?.Invoke();
+        yield return null;
     }
 }

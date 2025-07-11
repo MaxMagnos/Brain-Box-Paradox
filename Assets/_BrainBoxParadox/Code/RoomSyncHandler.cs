@@ -127,4 +127,14 @@ public class RoomSyncHandler : MonoBehaviour
         
         Debug.Log("Calibration for this Room is complete.");
     }
+
+    public float GetCalibrationTime()
+    {
+        return calibrationTime;
+    }
+
+    public float GetSyncRate()
+    {
+        return syncRate;
+    }
 }

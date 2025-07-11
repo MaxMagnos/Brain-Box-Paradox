@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 public class SnapPoint : MonoBehaviour
 {
@@ -82,7 +83,11 @@ public class SnapPoint : MonoBehaviour
         //Stupid ass If-Statement for every type of PuzzleObject:
         if (occupyingObjectShapeID == 3) //Eye
         {
-            //transform.Find
+            GameObject eyeObject = occupyingObject.transform.Find("Eye").gameObject;
+            if (eyeObject != null)
+            {
+                eyeObject.SetActive(false);
+            }
         }
         
         OnObjectPlaced?.Invoke(occupyingObjectShapeID);

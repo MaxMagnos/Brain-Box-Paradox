@@ -6,29 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="0e0d6c51-2146-4393-ae2c-20869b4457e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesFixtureEmissive.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesFixtureEmissive.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesRoughBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesRoughBlack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesSpotlightEmissive.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesSpotlightEmissive.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesTurntable_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/SamplesTurntable_White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_BackdropFabric.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_BackdropFabric.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_BackdropFabric_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_BackdropFabric_Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_BlackPaint.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_BlackPaint.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Checker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Checker.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Curtain.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Curtain.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Platform.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Platform.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_RoughGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_RoughGrey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_RoughSteel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_RoughSteel.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Tripod.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/Materials/Samples_Tripod.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/TextMesh Pro/Resources/Fonts &amp; Materials/Inter-Regular SDF Emissive Variant.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Scriptable Render Pipeline Core/Common/TextMesh Pro/Resources/Fonts &amp; Materials/Inter-Regular SDF Emissive Variant.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Light_Bulb_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Light_Bulb_Animator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouthGraphics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MouthGraphics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Hand_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Hand_Animator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Mouth_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Mouth_Animator.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Models/PropMouth.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Models/PropMouth.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Video/Cloud Recording SOURCE.mp4.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Video/Cloud Recording Sunset SOURCE.mp4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/SnapPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/SnapPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Morphable Object.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Base Prefabs/Morphable Object.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Eye Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Eye Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Hand Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Hand Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Mouth Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Mouth Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +121,7 @@
       <workItem from="1751992025039" duration="879000" />
       <workItem from="1752069939025" duration="11295000" />
       <workItem from="1752140924561" duration="1171000" />
-      <workItem from="1752230221177" duration="5114000" />
+      <workItem from="1752230221177" duration="12228000" />
     </task>
     <servers />
   </component>
