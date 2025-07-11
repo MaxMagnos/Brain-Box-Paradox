@@ -140,4 +140,16 @@ public class GrabHandler : MonoBehaviour
 
         return null;
     }
+
+    public GameObject GetGrabbedObject()
+    {
+        if (currentGrabable)
+        {
+            return currentGrabable.gameObject;
+        }
+        else
+        {
+            return null;
+        }
+    }
 }

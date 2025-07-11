@@ -84,7 +84,9 @@ PrefabInstance:
       propertyPath: m_TagString
       value: LightOrb
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 213762626533663537, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
+    - {fileID: 4176394864767092775, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

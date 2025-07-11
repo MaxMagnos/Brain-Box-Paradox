@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Goal : MonoBehaviour
@@ -26,12 +27,17 @@ public class Goal : MonoBehaviour
     {
         if (placedShapeID == requiredID)
         {
-            OnGoalAchieved?.Invoke();
-            Debug.Log("GOAL ACHIEVED");
+            StartCoroutine(GoalAchieved());
         }
         else
         {
             Debug.Log("GOAL NOT ACHIEVED");
         }
+    }
+
+    private IEnumerator GoalAchieved()
+    {
+        yield return new WaitForSeconds(0.5f);
+        OnGoalAchieved?.Invoke();
     }
 }

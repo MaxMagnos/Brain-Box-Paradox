@@ -14,6 +14,7 @@ public class RoomSwitcher : MonoBehaviour
     [SerializeField] private Vector3 anchor_B;
 
     private GameObject xrOrigin;
+    [SerializeField] private GrabHandler grabHandler;
     private RoomVariant currentVariant = RoomVariant.A;
 
     private void OnEnable()
@@ -29,15 +30,32 @@ public class RoomSwitcher : MonoBehaviour
 
     private void SwitchRoom()
     {
+        // Store the grabbed object's position RELATIVE TO THE XR ORIGIN'S CURRENT LOCAL SPACE.
+        Vector3? grabbedObjectLocalOffset = null; 
+        var grabbedObject = grabHandler.GetGrabbedObject();
+
+        if (grabbedObject != null)
+        {
+            grabbedObjectLocalOffset = xrOrigin.transform.InverseTransformPoint(grabbedObject.transform.position);
+        }
+
+        // Determine the NEW target position for the XR Origin based on the current variant.
+        // This is the part that needed fixing to ensure bidirectional movement.
         if (currentVariant == RoomVariant.A)
         {
-            xrOrigin.transform.position = anchor_A;
+            xrOrigin.transform.position = anchor_B; 
             currentVariant = RoomVariant.B;
         }
-        else
+        else // currentVariant == RoomVariant.B
         {
-            xrOrigin.transform.position = anchor_B;
+            xrOrigin.transform.position = anchor_A; 
             currentVariant = RoomVariant.A;
+        }
+
+        // Now, move the grabbed object maintaining its relative position to the new XR Origin position.
+        if (grabbedObject != null && grabbedObjectLocalOffset.HasValue)
+        {
+            grabbedObject.transform.position = xrOrigin.transform.TransformPoint(grabbedObjectLocalOffset.Value);
         }
     }
 
@@ -54,7 +72,7 @@ public class RoomSwitcher : MonoBehaviour
             anchor_B = newAnchorB.Value;
         }
 
-        currentVariant = RoomVariant.A;
+        currentVariant = RoomVariant.B;
         SwitchRoom();
     }
 }

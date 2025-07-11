@@ -15,6 +15,18 @@ EditorBuildSettings:
     path: Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity
     guid: dab02e1a367bff144ad78613baab7d3e
   - enabled: 1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 1 proto.unity
+    guid: f604b2df8dc024946a458c1eb412c07b
+  - enabled: 1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Standby proto.unity
+    guid: 2fd19280fd5da764086a839f68729b51
+  - enabled: 1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 2 proto.unity
+    guid: cc3a931dcfaf5784dbeacd2a24c15734
+  - enabled: 1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes_Prototyping/Room 2 Switched proto.unity
+    guid: 3cedd6876f119004aa958fcd58bd1523
+  - enabled: 1
     path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity
     guid: dd3d34ff3ddaa5e4ca400e96a3ef7403
   - enabled: 1
@@ -30,17 +42,23 @@ EditorBuildSettings:
     path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 3 Switched.unity
     guid: da3fd79fca14dcc4aa5f38f4d94a59ac
   - enabled: 1
-    path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 4 switch.unity
-    guid: cbece6ce0a34f074690c6f9e9027c4f1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 4.unity
+    guid: 40a2461557bb6f44d81137cd8a6f4ad3
   - enabled: 1
     path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 4 Switched.unity
-    guid: b4ea7278d0b0df14e870202efa9548ec
+    guid: cbece6ce0a34f074690c6f9e9027c4f1
   - enabled: 1
     path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 5.unity
     guid: e68697b9ba8c14d40abc558a72ee30d7
   - enabled: 1
     path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 5 switched.unity
     guid: 0822e138cc1796841b23b45abcce96f0
+  - enabled: 1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes/Start_Calibration.unity
+    guid: af704c582f0a6b141b1d4ef0d5cce80e
+  - enabled: 1
+    path: Assets/_BrainBoxParadox/Scenes/RoomScenes/TutorialAnimus.unity
+    guid: 5a6329693975f5d4eb008bf611bd99ea
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6e2221204ec5da744881a62baac68e0d, type: 2}
