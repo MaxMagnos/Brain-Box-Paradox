@@ -15,7 +15,7 @@ LightingSettings:
   m_AlbedoBoost: 1
   m_IndirectOutputScale: 1
   m_UsingShadowmask: 0
-  m_BakeBackend: 1
+  m_BakeBackend: 2
   m_LightmapMaxSize: 32
   m_LightmapSizeFixed: 0
   m_UseMipmapLimits: 1
@@ -25,7 +25,7 @@ LightingSettings:
   m_AO: 1
   m_AOMaxDistance: 1
   m_CompAOExponent: 1
-  m_CompAOExponentDirect: 1
+  m_CompAOExponentDirect: 10
   m_ExtractAO: 0
   m_MixedBakeMode: 0
   m_LightmapsBakeMode: 1
