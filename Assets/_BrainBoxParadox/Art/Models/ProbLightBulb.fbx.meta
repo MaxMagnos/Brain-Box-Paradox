@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Light_Wire
-    second: {fileID: 2100000, guid: d001e7c4cb122f447a68335ee2280846, type: 2}
+    second: {fileID: 2100000, guid: 22c31b0f06531a34db4c50412f1b3e26, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
