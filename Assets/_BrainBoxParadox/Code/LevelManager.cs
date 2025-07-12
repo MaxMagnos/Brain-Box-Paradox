@@ -121,7 +121,7 @@ public class LevelManager : MonoBehaviour
         }
         
         //Find RoomSyncHandler and subscribe if found
-        currentRoomSyncHandler = GameObject.FindGameObjectWithTag("RoomSyncHandler").GetComponent<RoomSyncHandler>();
+        currentRoomSyncHandler = GameObject.FindGameObjectWithTag("RoomSyncHandler")?.GetComponent<RoomSyncHandler>();
         if (currentRoomSyncHandler)
         {
             currentRoomSyncHandler.OnCalibrationCompleted += LoadNextLevel;

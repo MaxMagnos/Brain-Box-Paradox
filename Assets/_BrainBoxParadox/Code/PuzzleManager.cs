@@ -60,7 +60,7 @@ public void Initialize(PuzzleData data, Transform[] spawnPoints)
                 }
             }
             
-            Vector3 directionToAnchor = nearestAnchorPos - newInstance.transform.position;
+            Vector3 directionToAnchor = newInstance.transform.position - nearestAnchorPos;
 
             if (directionToAnchor != Vector3.zero)
             {
@@ -99,7 +99,7 @@ public void Initialize(PuzzleData data, Transform[] spawnPoints)
 
     private IEnumerator DestroyWithAnimation()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(3f);
         foreach (var obj in puzzleComponents)
         {
             if (obj != null)
