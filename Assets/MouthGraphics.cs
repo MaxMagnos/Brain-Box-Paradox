@@ -21,9 +21,9 @@ public class MouthGraphics : MonoBehaviour
         animator.SetTrigger("PlaySwallow");
     }
 
-    public void AnimationEventTest()
+    public void ToungeOutAnimationStarted()
     {
-        Debug.Log("AnimationEventTest ran properly!");
+        AudioManager.Instance.PlaySound("MouthOpen", transform.position, 1f);
     }
 }
  

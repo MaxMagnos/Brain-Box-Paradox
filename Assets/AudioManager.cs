@@ -74,7 +74,21 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Modified: Now takes a string name instead of AudioClip
+    // Modified: Now takes a string name and a position (Vector3)
+    public void PlaySound(string clipName, Vector3 position, float volume = 1f)
+    {
+        if (audioClipDictionary.TryGetValue(clipName, out AudioClip clip))
+        {
+            // Use PlayClipAtPoint to play the sound at the specified position
+            AudioSource.PlayClipAtPoint(clip, position, volume);
+        }
+        else
+        {
+            Debug.LogWarning($"Sound clip with name '{clipName}' not found in AudioManager.");
+        }
+    }
+
+    // You might also want an overloaded method for non-spatialized sounds
     public void PlaySound(string clipName, float volume = 1f)
     {
         if (audioClipDictionary.TryGetValue(clipName, out AudioClip clip))
@@ -85,7 +99,9 @@ public class AudioManager : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning($"SFX AudioSource is null. Cannot play sound '{clipName}'.");
+                // Fallback to playing at a default position (e.g., origin) if sfxAudioSource is null
+                Debug.LogWarning($"SFX AudioSource is null for non-spatialized sound. Playing '{clipName}' at Vector3.zero.");
+                AudioSource.PlayClipAtPoint(clip, Vector3.zero, volume);
             }
         }
         else
