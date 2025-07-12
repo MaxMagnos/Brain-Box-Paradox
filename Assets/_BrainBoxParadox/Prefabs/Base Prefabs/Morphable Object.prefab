@@ -488,6 +488,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5447573976688021144}
     m_Modifications:
+    - target: {fileID: 6079742963074545123, guid: baff103a19d60334aa72df741655d27f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6120821231128812223, guid: baff103a19d60334aa72df741655d27f, type: 3}
       propertyPath: m_Name
       value: eyeball_Graphics
@@ -577,6 +581,14 @@ PrefabInstance:
     - target: {fileID: 89073609281249045, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 883124193396009179, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 883124193396009179, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2457750113152617390, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
       propertyPath: m_LocalPosition.x

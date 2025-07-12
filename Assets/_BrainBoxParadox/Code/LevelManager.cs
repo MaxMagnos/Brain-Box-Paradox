@@ -43,6 +43,8 @@ public class LevelManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         
         playerObject = GameObject.FindGameObjectWithTag("Player");
+        
+        Application.targetFrameRate = -1;
     }
 
     private void Start()
