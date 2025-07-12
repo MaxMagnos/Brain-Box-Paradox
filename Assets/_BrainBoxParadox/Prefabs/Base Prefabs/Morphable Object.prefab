@@ -583,6 +583,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 883124193396009179, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 883124193396009179, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}

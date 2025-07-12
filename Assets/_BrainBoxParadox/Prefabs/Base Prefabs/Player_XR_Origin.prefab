@@ -453,10 +453,14 @@ MonoBehaviour:
   targetedSnapPoint: {fileID: 0}
   currentGrabable: {fileID: 0}
   grabRange: 200
-  grabbedDistance: 1
+  grabbedDistance: 2.5
+  grabRadius: 0.5
+  grabbableLayer:
+    serializedVersion: 2
+    m_Bits: 64
   maxDampDistance: 0.5
   dampMinSpeed: 0.2
-  dampMaxSpeed: 10
+  dampMaxSpeed: 20
   dampCurve:
     serializedVersion: 2
     m_Curve:
