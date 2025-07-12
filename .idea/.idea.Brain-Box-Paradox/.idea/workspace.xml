@@ -6,21 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0e0d6c51-2146-4393-ae2c-20869b4457e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brain-Box-Paradox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MouthGraphics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MouthGraphics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Hand_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Hand_Animator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Mouth_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Animation/Mouth_Animator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Models/PropMouth.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Art/Models/PropMouth.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/Goal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/PuzzleManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/RoomSyncHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/SnapPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/SnapPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Eye Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Eye Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Hand Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Hand Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Mouth Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Prefabs/Puzzle Components/Mouth Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/Room 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/prototyping-max/prototyping-max.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Audio/TutorialAudioContainer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Audio/TutorialAudioContainer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/TutorialHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Code/TutorialHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/Bootstrap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/PostProcessingVolumes/Room 5 switched.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/PostProcessingVolumes/Room 5 switched.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/PostProcessingVolumes/TutorialAnimus.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/PostProcessingVolumes/TutorialAnimus.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/TutorialAnimus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BrainBoxParadox/Scenes/RoomScenes/TutorialAnimus.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "prototyping-max-7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prototyping-max-7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe" />

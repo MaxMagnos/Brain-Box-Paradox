@@ -1,13 +1,43 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8990732193193627143
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BBP_Tut_07_{-8990732193193627143}
+  m_AudioClip: {fileID: 8300000, guid: e13f73319c9444a4daa29c1a8d41daa0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8698658284209474897
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BBP_Tut_08_{-8698658284209474897}
+  m_AudioClip: {fileID: 8300000, guid: 343f3ca078ac87b45aa030f7e4c95739, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7822869573571371155
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BBP_Tut_05_{-7822869573571371155}
+  m_AudioClip: {fileID: 8300000, guid: 9a6461a25fb1a6749b0849a173f6a4c6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
 --- !u!1233149941 &-5106099428422688285
 AudioContainerElement:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PH_Tutorial_1_{-5106099428422688285}
-  m_AudioClip: {fileID: 8300000, guid: dd2ceedf1e071fc45a6b69b8ce4e35fd, type: 3}
+  m_Name: BBP_Tut_01_{-5106099428422688285}
+  m_AudioClip: {fileID: 8300000, guid: 256133c3c47f05343bfcd927492be346, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1233149941 &-4917156235612989055
@@ -16,8 +46,8 @@ AudioContainerElement:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PH_Tutorial_3_{-4917156235612989055}
-  m_AudioClip: {fileID: 8300000, guid: 348196e97b4afb24e84ad5361fef0198, type: 3}
+  m_Name: BBP_Tut_03_{-4917156235612989055}
+  m_AudioClip: {fileID: 8300000, guid: 8e2db0c8f0734724d84bbde3f771f65f, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1233149941 &1869343948500355036
@@ -26,8 +56,8 @@ AudioContainerElement:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PH_Tutorial_3_{1869343948500355036}
-  m_AudioClip: {fileID: 8300000, guid: 18fd000ea689e3c41a76bc1913036769, type: 3}
+  m_Name: BBP_Tut_04_{1869343948500355036}
+  m_AudioClip: {fileID: 8300000, guid: 20a3364a773e4aa4ca738b000022745b, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1233149941 &5141944467230055948
@@ -36,8 +66,18 @@ AudioContainerElement:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PH_Tutorial_2_{5141944467230055948}
-  m_AudioClip: {fileID: 8300000, guid: 22f8efd7307b4c744abbc7b56abaf730, type: 3}
+  m_Name: BBP_Tut_02_{5141944467230055948}
+  m_AudioClip: {fileID: 8300000, guid: d0d947d0a26b61c4fbdb439a8ba1b45e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5689661615842295861
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BBP_Tut_06_{5689661615842295861}
+  m_AudioClip: {fileID: 8300000, guid: 60fa79d0a7975444bacd34bf9a3649d6, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1307931743 &6418180475301049370
@@ -60,6 +100,10 @@ AudioRandomContainer:
   - {fileID: 5141944467230055948}
   - {fileID: -4917156235612989055}
   - {fileID: 1869343948500355036}
+  - {fileID: -7822869573571371155}
+  - {fileID: 5689661615842295861}
+  - {fileID: -8990732193193627143}
+  - {fileID: -8698658284209474897}
   m_AvoidRepeatingLast: 0
   m_PlaybackMode: 0
   m_TriggerMode: 0

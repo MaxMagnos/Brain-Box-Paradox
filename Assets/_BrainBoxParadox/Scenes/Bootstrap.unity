@@ -341,6 +341,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameLevels:
+  - levelName: TutorialAnimus
+    sceneNames:
+    - TutorialAnimus
   - levelName: '#1'
     sceneNames:
     - Room 1
