@@ -238,6 +238,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7d4922e35f544d42818f4bdbf0f32c0, type: 3}
+--- !u!20 &225262131 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3128398638722209960, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+  m_PrefabInstance: {fileID: 857832774}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &475225615
 GameObject:
   m_ObjectHideFlags: 1
@@ -299,6 +304,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_XR_Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 7253933934457512439, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: grabRange
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253933934457512439, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 225262131}
     - target: {fileID: 8673843519780566324, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: clearColorMode
       value: 1

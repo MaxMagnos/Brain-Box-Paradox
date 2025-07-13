@@ -1,7 +1,6 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
 
+// Enum should be defined outside the class or in its own file
 enum RoomVariant
 {
     A,
@@ -17,9 +16,15 @@ public class RoomSwitcher : MonoBehaviour
     [SerializeField] private GrabHandler grabHandler;
     private RoomVariant currentVariant = RoomVariant.A;
 
+    private void Awake()
+    {
+        // It's safer to get references in Awake or Start
+        xrOrigin = this.gameObject;
+    }
+
     private void OnEnable()
     {
-        xrOrigin = this.GameObject();
+        // Assuming InputHandler is a singleton you've created
         InputHandler.Ins.OnRoomStateSwitch += SwitchRoom;
     }
 
@@ -27,51 +32,54 @@ public class RoomSwitcher : MonoBehaviour
     {
         InputHandler.Ins.OnRoomStateSwitch -= SwitchRoom;
     }
-
     private void SwitchRoom()
     {
-        // Store the grabbed object's position RELATIVE TO THE XR ORIGIN'S CURRENT LOCAL SPACE.
-        Vector3? grabbedObjectLocalOffset = null; 
         var grabbedObject = grabHandler.GetGrabbedObject();
+        Rigidbody grabbedRb = null;
+        RigidbodyInterpolation originalInterpolation = RigidbodyInterpolation.None;
+        Vector3? grabbedObjectLocalOffset = null; 
 
+        // --- PREPARE ---
         if (grabbedObject != null)
         {
+            // 1. Get the Rigidbody and store its current interpolation setting
+            grabbedRb = grabbedObject.GetComponent<Rigidbody>();
+            originalInterpolation = grabbedRb.interpolation;
+
+            // 2. Disable interpolation to allow for an instant teleport
+            grabbedRb.interpolation = RigidbodyInterpolation.None;
+
+            // 3. Store the object's position relative to the player
             grabbedObjectLocalOffset = xrOrigin.transform.InverseTransformPoint(grabbedObject.transform.position);
         }
 
-        // Determine the NEW target position for the XR Origin based on the current variant.
-        // This is the part that needed fixing to ensure bidirectional movement.
-        if (currentVariant == RoomVariant.A)
-        {
-            xrOrigin.transform.position = anchor_B; 
-            currentVariant = RoomVariant.B;
-        }
-        else // currentVariant == RoomVariant.B
-        {
-            xrOrigin.transform.position = anchor_A; 
-            currentVariant = RoomVariant.A;
-        }
+        // --- TELEPORT THE PLAYER ---
+        Vector3 targetPosition = (currentVariant == RoomVariant.A) ? anchor_B : anchor_A;
+        xrOrigin.transform.position = targetPosition;
+        currentVariant = (currentVariant == RoomVariant.A) ? RoomVariant.B : RoomVariant.A;
 
-        // Now, move the grabbed object maintaining its relative position to the new XR Origin position.
+        // --- TELEPORT THE GRABBED OBJECT AND RESET STATE ---
         if (grabbedObject != null && grabbedObjectLocalOffset.HasValue)
         {
-            grabbedObject.transform.position = xrOrigin.transform.TransformPoint(grabbedObjectLocalOffset.Value);
+            // 4. Move the object using its Rigidbody for better physics handling
+            Vector3 newObjectPosition = xrOrigin.transform.TransformPoint(grabbedObjectLocalOffset.Value);
+            grabbedRb.position = newObjectPosition;
+
+            // 5. CRITICAL: Reset the grab handler's velocity to prevent "catch-up"
+            grabHandler.ResetGrabVelocity();
+
+            // 6. Restore the original interpolation setting
+            grabbedRb.interpolation = originalInterpolation;
         }
     }
 
+    // SetAnchors method remains the same
     public void SetAnchors(Vector3 newAnchorA, Vector3? newAnchorB = null)
     {
         anchor_A = newAnchorA;
+        anchor_B = newAnchorB.HasValue ? newAnchorB.Value : newAnchorA;
 
-        if (!newAnchorB.HasValue)
-        {
-            anchor_B = anchor_A;      //Fallback: If there is no Anchor B then both anchors will bet set to A's position
-        }
-        else
-        {
-            anchor_B = newAnchorB.Value;
-        }
-
+        // Start at B so the first switch goes to A
         currentVariant = RoomVariant.B;
         SwitchRoom();
     }

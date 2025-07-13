@@ -468,7 +468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589156335406529845, guid: f00e731851dbf9545ad2ddb8a48502d7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4589156335406529845, guid: f00e731851dbf9545ad2ddb8a48502d7, type: 3}
       propertyPath: m_TagString
@@ -588,7 +588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 883124193396009179, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
       propertyPath: m_Drag
-      value: 5
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 883124193396009179, guid: 91eadf6c811c0404297092a3cbff2727, type: 3}
       propertyPath: m_Interpolate

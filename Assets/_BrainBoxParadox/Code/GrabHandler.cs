@@ -1,33 +1,36 @@
 using System;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class GrabHandler : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private SnapPoint targetedSnapPoint;
     [SerializeField] private Grabable currentGrabable;
+    private SnapPoint targetedSnapPoint;
 
     private Vector3 targetPosition;
     private Quaternion rotationOffset;
 
-    [Header("Grab Tuning")]
-    public float grabRange = 5f; // Max distance you can grab from
-    public float grabbedDistance = 3f; // How far the object is held from you
+    // For SmoothDamp functionality
+    private Vector3 currentMoveVelocity;
+    private Quaternion currentRotationVelocity;
 
-    [Header("Grab Detection")]
+
+    [Header("Grab Settings")]
+    [Tooltip("Max distance from which an object can be grabbed.")]
+    public float grabRange = 5f;
+    [Tooltip("How far the object is held from the camera.")]
+    public float grabbedDistance = 3f;
     [Tooltip("The radius of the sphere used to detect grabbable objects.")]
     public float grabRadius = 0.5f;
-    [Tooltip("Set this to the layer your grabbable objects are on.")]
+    [Tooltip("The layer your grabbable objects are on.")]
     public LayerMask grabbableLayer;
 
-    [Header("Movement Damping")]
-    public float maxDampDistance;
-    public float dampMinSpeed;
-    public float dampMaxSpeed;
-    
-    [Tooltip("Curve of damp-speed for grabbed objects.\n X-Axis: How far away object is from target-position (0 = at target position).\n Y-Axis: speed-multiplier (0 = minSpeed, 1 = maxSpeed")]
-    public AnimationCurve dampCurve;
+    [Header("Movement Smoothing")]
+    [Tooltip("Time it takes for the grabbed object to reach the target position. Smaller values are faster.")]
+    public float moveSmoothTime = 0.08f;
+    [Tooltip("Time it takes for the grabbed object to match the target rotation. Smaller values are faster.")]
+    public float rotationSmoothTime = 0.08f;
+
 
     private void OnEnable()
     {
@@ -46,121 +49,131 @@ public class GrabHandler : MonoBehaviour
         InputHandler.Ins.OnGrabReleased -= Drop;
     }
 
-    void Update()
+    private void FixedUpdate()
     {
+        // Physics-related code should be in FixedUpdate for consistency.
         HandleMove();
     }
-    
+
     public void Grab()
     {
-        if (!currentGrabable)
+        if (currentGrabable) return;
+
+        currentGrabable = GetGrabable();
+        if (currentGrabable)
         {
-            currentGrabable = GetGrabable();
+            currentGrabable.Grab();
+            // Calculate the rotation difference between the camera and the object.
+            rotationOffset = Quaternion.Inverse(mainCamera.transform.rotation) * currentGrabable.transform.rotation;
         }
     }
 
     public void Drop()
     {
-        if (currentGrabable)
+        if (!currentGrabable) return;
+
+        targetedSnapPoint = CheckForSnapPoint();
+        currentGrabable.Drop();
+        if (targetedSnapPoint)
         {
-            targetedSnapPoint = CheckForSnapPoint();
-            currentGrabable.Drop();
-            if (targetedSnapPoint)
-            {
-                targetedSnapPoint.SetOccupyingObject(currentGrabable);
-            }
-            currentGrabable = null;
+            targetedSnapPoint.SetOccupyingObject(currentGrabable);
         }
+        currentGrabable = null;
     }
-    
-    /// <summary>
-    /// Uses a SphereCast to find a grabbable object in front of the camera.
-    /// This is more reliable than a Raycast for grabbing, as it detects close objects.
-    /// </summary>
-    public Grabable GetGrabable()
+
+    private Grabable GetGrabable()
     {
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
-        RaycastHit hit;
-
-        // Use SphereCast instead of Raycast. It's like a thick ray.
-        if (Physics.SphereCast(ray, grabRadius, out hit, grabRange, grabbableLayer))
+        if (Physics.SphereCast(ray, grabRadius, out RaycastHit hit, grabRange, grabbableLayer))
         {
-            Grabable grabable = hit.collider.gameObject.GetComponent<Grabable>();
-            if (grabable != null)
+            if (hit.collider.TryGetComponent<Grabable>(out Grabable grabable))
             {
-                grabable.Grab();
-                // This rotation logic remains exactly as you had it.
-                rotationOffset = Quaternion.Inverse(mainCamera.transform.rotation) * grabable.transform.rotation;
-                rotationOffset = Quaternion.Euler(0, rotationOffset.eulerAngles.y, 0);
                 return grabable;
             }
         }
-        
-        // Return null if no grabbable object was hit
         return null;
     }
-    
-    void HandleMove()
+
+    private void HandleMove()
     {
-        if (currentGrabable)
-        {
-            targetPosition = mainCamera.transform.position + mainCamera.transform.forward * grabbedDistance;
-            float totalDistance = (targetPosition - currentGrabable.transform.position).magnitude;
-            float moveSpeed = Mathf.Lerp(dampMinSpeed, dampMaxSpeed, dampCurve.Evaluate(totalDistance / maxDampDistance));
-            Vector3 newPosition = Vector3.MoveTowards(currentGrabable.transform.position, targetPosition, Time.deltaTime * moveSpeed);
-            currentGrabable.rb.MovePosition(newPosition);
-            
-            var newRotation = mainCamera.transform.rotation.eulerAngles + rotationOffset.eulerAngles;
-            newRotation.x = currentGrabable.transform.rotation.eulerAngles.x;
-            currentGrabable.rb.rotation = Quaternion.Euler(newRotation);
-        }
-    }
-    
-    void OnDrawGizmos()
-    {
-        if (mainCamera != null)
-        {
-            Gizmos.color = Color.yellow;
-            Vector3 startPoint = mainCamera.transform.position;
-            Vector3 endPoint = startPoint + mainCamera.transform.forward * grabRange;
-            
-            // Draw a wire sphere at the start and end of the cast to visualize the radius
-            Gizmos.DrawWireSphere(startPoint, grabRadius);
-            Gizmos.DrawWireSphere(endPoint, grabRadius);
-            
-            // Draw lines to connect the spheres, representing the path of the SphereCast
-            Gizmos.DrawLine(startPoint + mainCamera.transform.right * grabRadius, endPoint + mainCamera.transform.right * grabRadius);
-            Gizmos.DrawLine(startPoint - mainCamera.transform.right * grabRadius, endPoint - mainCamera.transform.right * grabRadius);
-            Gizmos.DrawLine(startPoint + mainCamera.transform.up * grabRadius, endPoint + mainCamera.transform.up * grabRadius);
-            Gizmos.DrawLine(startPoint - mainCamera.transform.up * grabRadius, endPoint - mainCamera.transform.up * grabRadius);
-        }
+        if (!currentGrabable) return;
+
+        // 1. Calculate Target Position & Rotation
+        targetPosition = mainCamera.transform.position + mainCamera.transform.forward * grabbedDistance;
+        Quaternion targetRotation = mainCamera.transform.rotation * rotationOffset;
+
+        // 2. Smoothly move the Rigidbody to the target position
+        Vector3 newPosition = Vector3.SmoothDamp(
+            currentGrabable.transform.position,
+            targetPosition,
+            ref currentMoveVelocity,
+            moveSmoothTime
+        );
+        currentGrabable.rb.MovePosition(newPosition);
+
+        // 3. Smoothly rotate the Rigidbody to the target rotation
+        // We use Slerp (Spherical Linear Interpolation) for smooth rotation.
+        Quaternion newRotation = Slerp(
+            currentGrabable.rb.rotation,
+            targetRotation,
+            ref currentRotationVelocity,
+            rotationSmoothTime
+        );
+        currentGrabable.rb.MoveRotation(newRotation);
     }
 
-    SnapPoint CheckForSnapPoint()
+    /// <summary>
+    /// A custom Slerp function that works like SmoothDamp for Quaternions.
+    /// </summary>
+    private Quaternion Slerp(Quaternion current, Quaternion target, ref Quaternion velocity, float smoothTime)
+    {
+        // This is a simplified approach to quaternion damping.
+        // For more complex physics, a full PID controller might be needed.
+        float t = 1f - Mathf.Exp(-1f / smoothTime * Time.fixedDeltaTime);
+        return Quaternion.Slerp(current, target, t);
+    }
+
+
+    private SnapPoint CheckForSnapPoint()
     {
         int layerMask = 1 << LayerMask.NameToLayer("SnapPoint");
-        
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, grabRange, layerMask))
+        if (Physics.Raycast(ray, out RaycastHit hit, grabRange, layerMask))
         {
-            var snapPoint = hit.collider.gameObject.GetComponent<SnapPoint>();
-            if(snapPoint != null) {Debug.Log("Snappoint Hit on Drop: " + snapPoint.name);}
-            return snapPoint;
+            if (hit.collider.TryGetComponent<SnapPoint>(out SnapPoint snapPoint))
+            {
+                Debug.Log("SnapPoint Hit on Drop: " + snapPoint.name);
+                return snapPoint;
+            }
         }
-
         return null;
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (mainCamera == null) return;
+
+        Gizmos.color = Color.yellow;
+        Vector3 startPoint = mainCamera.transform.position;
+        Vector3 endPoint = startPoint + mainCamera.transform.forward * grabRange;
+
+        Gizmos.DrawWireSphere(startPoint, grabRadius);
+        Gizmos.DrawWireSphere(endPoint, grabRadius);
+
+        Gizmos.DrawLine(startPoint + mainCamera.transform.right * grabRadius, endPoint + mainCamera.transform.right * grabRadius);
+        Gizmos.DrawLine(startPoint - mainCamera.transform.right * grabRadius, endPoint - mainCamera.transform.right * grabRadius);
+        Gizmos.DrawLine(startPoint + mainCamera.transform.up * grabRadius, endPoint + mainCamera.transform.up * grabRadius);
+        Gizmos.DrawLine(startPoint - mainCamera.transform.up * grabRadius, endPoint - mainCamera.transform.up * grabRadius);
     }
 
     public GameObject GetGrabbedObject()
     {
-        if (currentGrabable)
-        {
-            return currentGrabable.gameObject;
-        }
-        else
-        {
-            return null;
-        }
+        return currentGrabable ? currentGrabable.gameObject : null;
+    }
+    
+    // Add this method to your existing GrabHandler.cs script
+    public void ResetGrabVelocity()
+    {
+        currentMoveVelocity = Vector3.zero;
     }
 }
