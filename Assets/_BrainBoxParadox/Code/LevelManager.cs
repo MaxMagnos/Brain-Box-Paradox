@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,6 +27,10 @@ public class LevelManager : MonoBehaviour
     [Header("Scene Configuration")]
     [Tooltip("Define all game levels here. Each level can be made of one or more scenes.")]
     [SerializeField] private List<Level> gameLevels;
+    
+    [SerializeField] private CanvasGroup fadeCanvasGroup;
+    [SerializeField] private float fadeDuration;
+    [SerializeField] private AnimationCurve fadeCurve;
 
     private int currentLevelIndex = -1;
 
@@ -74,6 +79,9 @@ public class LevelManager : MonoBehaviour
         {
             currentRoomSyncHandler.OnCalibrationCompleted -= LoadNextLevel;
         }
+
+        yield return StartCoroutine(Fade(true, fadeDuration));
+        yield return new WaitForSeconds(fadeDuration);
         
         // 1. UNLOAD the previous level's scenes.
         if (currentLevelIndex >= 0)
@@ -129,5 +137,37 @@ public class LevelManager : MonoBehaviour
             currentRoomSyncHandler.OnCalibrationCompleted += LoadNextLevel;
         }
         
+        yield return StartCoroutine(Fade(false, fadeDuration));
+        
+    }
+
+    private IEnumerator Fade(bool fadeIn, float duration)
+    {
+        fadeCanvasGroup.GameObject().SetActive(true);
+        float passedTime = 0;
+        if (fadeIn)
+        {
+            fadeCanvasGroup.alpha = 0;
+            while (passedTime < duration)
+            {
+                fadeCanvasGroup.alpha = fadeCurve.Evaluate(passedTime / duration);
+                Debug.Log("CanvasGroup Alpha set to: " + fadeCanvasGroup.alpha);
+                passedTime += Time.deltaTime;
+                yield return null;
+            }
+            fadeCanvasGroup.alpha = 1;
+        }
+        else
+        {
+            fadeCanvasGroup.alpha = 1;
+            while (passedTime < duration)
+            {
+                fadeCanvasGroup.alpha = fadeCurve.Evaluate(1-(passedTime / duration));
+                passedTime += Time.deltaTime;
+                yield return null;
+            }
+            fadeCanvasGroup.alpha = 0;
+            fadeCanvasGroup.gameObject.SetActive(false);
+        }
     }
 }

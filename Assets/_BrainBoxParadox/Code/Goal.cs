@@ -37,6 +37,8 @@ public class Goal : MonoBehaviour
 
     private IEnumerator GoalAchieved()
     {
+        AudioManager.Instance.PlaySound("PuzzleSolved", 1f);
+        
         OnGoalAchieved?.Invoke();
         yield return null;
     }

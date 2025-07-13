@@ -121,6 +121,7 @@ public class RoomSyncHandler : MonoBehaviour
         puzzleManager.HandleGoalAchieved();
         
         //TODO: Add some sound here
+        AudioManager.Instance.PlaySound("RoomCompleted", 1f);
         
         yield return new WaitForSeconds(3f);
         OnCalibrationCompleted?.Invoke();
