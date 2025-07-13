@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598e2d32e2c7b0c418e030c3236d663a, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -365,31 +365,31 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   rayTracing:
     m_OverrideState: 1
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1.13
+    m_Value: 1.11
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   radius:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3.92
   spatialBilateralAggressiveness:
     m_OverrideState: 1
     m_Value: 0.15
   temporalAccumulation:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   ghostingReduction:
     m_OverrideState: 1
     m_Value: 0.5
   blurSharpness:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.104
   layerMask:
     m_OverrideState: 1
     m_Value:
@@ -834,10 +834,10 @@ MonoBehaviour:
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 18.8
+    m_Value: 18.9
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 1.8
+    m_Value: 5.5
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
