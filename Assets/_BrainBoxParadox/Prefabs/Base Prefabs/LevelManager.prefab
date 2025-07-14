@@ -261,6 +261,9 @@ MonoBehaviour:
     sceneNames:
     - Room 5
     - Room 5 switched
+  - levelName: End Calibration
+    sceneNames:
+    - End_Calibration 1
   fadeCanvasGroup: {fileID: 3308584186548347638}
   fadeDuration: 2
   fadeCurve:
