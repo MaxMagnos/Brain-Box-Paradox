@@ -11,7 +11,7 @@ public class SnapPoint : MonoBehaviour
 
     public bool isLightbulb;
     
-    public event Action<int> OnObjectPlaced;
+    public event Action<int, GameObject> OnObjectPlaced;
     
     private void Awake()
     {
@@ -79,23 +79,16 @@ public class SnapPoint : MonoBehaviour
     private void ObjectPlaced()
     {
         Debug.Log("ObjectPlaced");
-        
-        //Stupid ass If-Statement for every type of PuzzleObject:
-        if (occupyingObjectShapeID == 3) //Eye
-        {
-            GameObject eyeObject = occupyingObject.transform.Find("Eye").gameObject;
-            if (eyeObject != null)
-            {
-                eyeObject.SetActive(false);
-            }
-        }
-        
-        OnObjectPlaced?.Invoke(occupyingObjectShapeID);
+        OnObjectPlaced?.Invoke(occupyingObjectShapeID, occupyingObject.gameObject);
     }
     
     public GameObject GetOccupyingObject()
     {
-        return occupyingObject.gameObject;
+        if (occupyingObject != null)
+        {
+            return occupyingObject.gameObject;
+        }
+        return null;
     }
 
     private void ClearOccupyingObject()

@@ -94,7 +94,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 497885c97303d4943b5b13b55003293a, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -127,9 +127,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -171,6 +179,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -189,6 +209,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1410230826862015116, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: light
@@ -196,6 +220,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -237,6 +265,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -255,9 +295,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -299,6 +347,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -317,6 +377,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 1.6
@@ -324,6 +388,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -364,6 +432,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -461,13 +541,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167846615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27885175, y: -0.08166384, z: 0.056867577, w: 0.9551643}
-  m_LocalPosition: {x: -2.874598, y: 2.4925165, z: 7.312104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.874598, y: 5, z: -0.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1822406861}
-  m_LocalEulerAnglesHint: {x: 32.819, y: -8.505, z: 4.305}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &167846619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +744,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -693,7 +793,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &244435480
 MeshCollider:
@@ -10756,9 +10856,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10800,6 +10916,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10826,7 +10946,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &289346262
 Light:
@@ -10839,13 +10959,13 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 35395.766
+  m_Intensity: 530000
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10884,7 +11004,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 4509
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.68e-42, y: 2.524355e-29, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.979e-42, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -11058,9 +11178,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11102,6 +11230,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11129,7 +11269,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &361479703
 Transform:
@@ -11234,9 +11374,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11278,6 +11426,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11296,9 +11456,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11340,6 +11516,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11353,9 +11533,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11397,6 +11585,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11415,9 +11615,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11459,6 +11675,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11477,9 +11697,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11520,6 +11756,10 @@ PrefabInstance:
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11582,6 +11822,26 @@ PrefabInstance:
     - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
       propertyPath: m_Name
       value: decor_candle3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11657,6 +11917,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -11676,9 +11956,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11723,6 +12019,10 @@ PrefabInstance:
     - target: {fileID: 8111350922203590758, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11781,6 +12081,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11799,9 +12119,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11847,6 +12183,10 @@ PrefabInstance:
       propertyPath: m_VolumetricDimmer
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11865,9 +12205,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11908,6 +12264,10 @@ PrefabInstance:
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11982,6 +12342,26 @@ PrefabInstance:
     - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
       propertyPath: m_Name
       value: decor_candle3 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -12058,6 +12438,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -12098,11 +12498,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Profile: {fileID: 0}
-  m_StaticLightingSkyUniqueID: 0
+  m_Profile: {fileID: 11400000, guid: 13a80d49e1df4714c94f700b6297eed4, type: 2}
+  m_StaticLightingSkyUniqueID: 4
   m_StaticLightingCloudsUniqueID: 0
-  m_StaticLightingVolumetricClouds: 0
-  bounces: 1
+  m_StaticLightingVolumetricClouds: 1
+  bounces: 3
 --- !u!4 &535747727
 Transform:
   m_ObjectHideFlags: 1
@@ -12179,12 +12579,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_CastShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_StaticShadowCaster
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -12193,6 +12597,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_Name
       value: walls3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12207,9 +12615,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12251,6 +12675,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12269,9 +12697,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12317,6 +12761,10 @@ PrefabInstance:
       propertyPath: m_VolumetricDimmer
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12335,9 +12783,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12382,6 +12846,10 @@ PrefabInstance:
     - target: {fileID: 8111350922203590758, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12553,6 +13021,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -12580,7 +13068,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &657211242
 MonoBehaviour:
@@ -12862,6 +13350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 1.6
@@ -12869,6 +13361,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12909,6 +13405,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12972,6 +13480,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12990,9 +13518,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13034,6 +13578,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13052,9 +13600,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13096,6 +13652,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13120,7 +13688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &760591151
 Transform:
@@ -13225,6 +13793,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_wooden_chair
       objectReference: {fileID: 0}
+    - target: {fileID: 3572246798391237125, guid: 92a4f0566371c8740af479a34f1bfbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789038452864782419, guid: 92a4f0566371c8740af479a34f1bfbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4240415188833173695, guid: 92a4f0566371c8740af479a34f1bfbb5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.2385936
@@ -13265,6 +13841,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5548786688012268461, guid: 92a4f0566371c8740af479a34f1bfbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777392599153848887, guid: 92a4f0566371c8740af479a34f1bfbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13293,9 +13877,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13337,6 +13937,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13355,6 +13959,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 7.2
@@ -13362,6 +13970,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13403,6 +14015,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13416,9 +14040,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13460,6 +14092,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13473,9 +14117,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13517,6 +14177,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13535,6 +14199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 1.6
@@ -13542,6 +14210,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13583,6 +14255,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13611,9 +14295,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13655,6 +14347,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13678,9 +14382,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13722,6 +14442,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13740,6 +14464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1410230826862015116, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: light
@@ -13747,6 +14475,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13788,6 +14520,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13817,7 +14561,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &931907906
 Transform:
@@ -13902,6 +14646,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -13977,6 +14741,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -13996,9 +14780,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14039,6 +14831,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14114,6 +14918,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -14133,9 +14957,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14177,6 +15009,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14195,9 +15039,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14239,6 +15091,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14249,6 +15113,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
   m_PrefabInstance: {fileID: 1017807871}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1035121770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035121772}
+  - component: {fileID: 1035121771}
+  m_Layer: 0
+  m_Name: Adaptive Probe Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1035121771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035121770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cded085d155cde949b60f67a11dbc3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 2
+  size: {x: 25.265034, y: 25.985819, z: 33.620026}
+  overrideRendererFilters: 0
+  minRendererVolumeSize: 0.1
+  objectLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  lowestSubdivLevelOverride: 0
+  highestSubdivLevelOverride: 3
+  overridesSubdivLevels: 0
+  mightNeedRebaking: 0
+  cachedTransform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.54744244
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -8.30709
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -1.7799988
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  cachedHashCode: -1058533302
+  fillEmptySpaces: 0
+  version: 2
+  globalVolume: 0
+--- !u!4 &1035121772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035121770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.54744244, y: 8.30709, z: 1.7799988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1056432049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14257,9 +15197,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14300,6 +15256,10 @@ PrefabInstance:
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14358,6 +15318,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14371,9 +15351,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14415,6 +15411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14433,9 +15433,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14476,6 +15484,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14545,6 +15565,26 @@ PrefabInstance:
     - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
       propertyPath: m_Name
       value: decor_candle3 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -14626,6 +15666,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -14689,6 +15749,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14707,9 +15787,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14751,6 +15847,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14769,6 +15869,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1410230826862015116, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: light
@@ -14776,6 +15880,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14816,6 +15924,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14891,6 +16011,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -14954,6 +16094,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14977,9 +16137,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15020,6 +16196,10 @@ PrefabInstance:
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15099,6 +16279,26 @@ PrefabInstance:
     - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
       propertyPath: m_Name
       value: decor_candle3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -15181,9 +16381,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15225,6 +16441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15243,9 +16463,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15290,6 +16526,10 @@ PrefabInstance:
     - target: {fileID: 8111350922203590758, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15365,6 +16605,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -15379,9 +16639,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15423,6 +16691,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15441,9 +16721,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15488,6 +16784,10 @@ PrefabInstance:
     - target: {fileID: 8111350922203590758, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15558,6 +16858,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -15583,7 +16903,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1681014414
 Transform:
@@ -15619,9 +16939,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15663,6 +16991,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15681,9 +17021,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15725,6 +17081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15750,6 +17110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1769887325}
   - component: {fileID: 1769887324}
+  - component: {fileID: 1769887326}
   m_Layer: 0
   m_Name: PostProcesingVolumeRoom3
   m_TagString: Untagged
@@ -15769,7 +17130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsGlobal: 1
+  m_IsGlobal: 0
   priority: 0
   blendDistance: 0
   weight: 1
@@ -15783,12 +17144,33 @@ Transform:
   m_GameObject: {fileID: 1769887323}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -84.35349, y: 35.296112, z: 44.913513}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1822406861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1769887326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769887323}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 27.578186, y: 27.158257, z: 35.84417}
+  m_Center: {x: -2.3265724, y: 1.5563722, z: 9.457468}
 --- !u!1001 &1774489700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15797,6 +17179,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 1.6
@@ -15804,6 +17190,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15845,6 +17235,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15858,9 +17260,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15906,6 +17324,10 @@ PrefabInstance:
       propertyPath: m_VolumetricDimmer
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15924,9 +17346,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15967,6 +17397,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16081,6 +17523,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -16143,6 +17605,26 @@ PrefabInstance:
     - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
       propertyPath: m_Name
       value: decor_candle3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16218,6 +17700,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: decor_candle3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 803220851185968163, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656844049882386890, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858974511100047694, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349358720435216947, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015312498841126924, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1262271579034055008, guid: df49c418229db0e4392e1a055b1c0a9d, type: 3}
@@ -16237,9 +17739,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16281,6 +17791,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16308,7 +17830,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1897068057
 Transform:
@@ -16378,7 +17900,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
+  m_ReceiveGI: 2
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16441,9 +17963,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16484,6 +18022,10 @@ PrefabInstance:
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16673,6 +18215,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 1.6
@@ -16680,6 +18226,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16721,6 +18271,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16734,9 +18296,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16782,6 +18360,10 @@ PrefabInstance:
       propertyPath: m_VolumetricDimmer
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16803,6 +18385,10 @@ PrefabInstance:
     - target: {fileID: 178558522249173536, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
       propertyPath: m_Name
       value: Particle System (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 178558522249173536, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677417410530890429, guid: df17117ea422ad749a3a25a3f039da50, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
@@ -16874,6 +18460,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1410230826862015116, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: light
@@ -16881,6 +18471,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16922,6 +18516,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16935,6 +18541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1406045983395877570, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1723849305024641178, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_VolumetricDimmer
       value: 1.5
@@ -16942,6 +18552,10 @@ PrefabInstance:
     - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_Name
       value: decor_candle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315543458301532196, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16982,6 +18596,18 @@ PrefabInstance:
     - target: {fileID: 3128214129810768542, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391108497401513748, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112569654190561010, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265001507496886099, guid: 92c37cf834c7e654fb15d00ee016c04a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17044,6 +18670,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4613645744264413533, guid: 56d2049c6d8f2024a8fa6b4963acee6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17062,9 +18692,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760591151}
     m_Modifications:
+    - target: {fileID: 1933117854720919254, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146008057694686141, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071307315932470717, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_Name
       value: decor_candle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974022704269241230, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6461589403812131124, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17106,6 +18752,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509882644985988866, guid: 745d2446c69ff9548b9f53dbc5c1743b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17118,3 +18768,4 @@ SceneRoots:
   - {fileID: 637897372}
   - {fileID: 670642111}
   - {fileID: 535747727}
+  - {fileID: 1035121772}

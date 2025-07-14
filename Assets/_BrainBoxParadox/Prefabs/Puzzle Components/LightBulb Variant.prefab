@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6730806438771968966, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
       propertyPath: m_Drag
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6730806438771968966, guid: 8bd2ecc3191517f4a95330b65cba965f, type: 3}
       propertyPath: m_AngularDrag

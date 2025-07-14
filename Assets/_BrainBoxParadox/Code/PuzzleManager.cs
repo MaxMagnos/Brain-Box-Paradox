@@ -99,7 +99,6 @@ public void Initialize(PuzzleData data, Transform[] spawnPoints)
 
     private IEnumerator DestroyWithAnimation()
     {
-        yield return new WaitForSeconds(3f);
         foreach (var obj in puzzleComponents)
         {
             if (obj != null)

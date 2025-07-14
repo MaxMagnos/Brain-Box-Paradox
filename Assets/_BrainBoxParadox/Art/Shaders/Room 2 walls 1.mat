@@ -129,7 +129,7 @@ Material:
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Glitch_Color: {r: 0, g: 0.14970618, b: 0.6415094, a: 0}
-    - _TColor: {r: 1, g: 0, b: 0.94901943, a: 0}
+    - _TColor: {r: 0.63178635, g: 0, b: 1, a: 0}
     - _tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

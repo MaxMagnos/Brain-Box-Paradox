@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 public class MorphHandler : MonoBehaviour
@@ -102,6 +103,30 @@ public class MorphHandler : MonoBehaviour
     private void HandleGrab()
     {
         lockCount++;
+        
+        char sfxVariation = char.Parse(Random.Range(1, 4).ToString());
+        string sfx = "SwitchClick_V1";
+        switch (currentShapeID)
+        {
+            case 0:
+                sfx = "LightOrbGrab_V" + sfxVariation;
+                break;
+            
+            case 1 or 2:
+                sfx = "LightbulbGrab_V" + sfxVariation;
+                break;
+            
+            case 3:
+                sfx = "EyeGrab_V" + sfxVariation;
+                break;
+            
+            case 4:
+                sfx = "ScissorGrab_V" + sfxVariation;
+                break;
+            
+            default: break;
+        }
+        AudioManager.Instance.PlaySound(sfx, transform.position, 1f);
     }
 
     private void HandleDrop()
