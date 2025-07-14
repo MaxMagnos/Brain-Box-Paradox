@@ -3493,7 +3493,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
       propertyPath: syncRateDecay
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
       propertyPath: 'puzzles.Array.data[0]'

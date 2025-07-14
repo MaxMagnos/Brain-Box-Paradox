@@ -288,53 +288,57 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: syncRateDecay
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: puzzles.Array.size
-      value: 23
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 2c34317864b4062479d2ec535a7bb055, type: 2}
+      objectReference: {fileID: 11400000, guid: 607371c9fbac4c142b56fe04d848eb6c, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: b06346dd2cec2db448280c5f050d815d, type: 2}
+      objectReference: {fileID: 11400000, guid: c201f8573015e9a43b5927806cd141c4, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: 09a8a45d0d658ce43b0eb4c7d4acde1e, type: 2}
+      objectReference: {fileID: 11400000, guid: bd12e536c3974c94c88cce652b502b2f, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: c4f436f8f696fbe488968f46ddcfdacb, type: 2}
+      objectReference: {fileID: 11400000, guid: e8c24646e9f12a94683927c4c8682df0, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[4]'
       value: 
-      objectReference: {fileID: 11400000, guid: b9cba1a9eec264b43b24b1d737550f50, type: 2}
+      objectReference: {fileID: 11400000, guid: d76bdf3c592b0624e880b91cb620b38d, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[5]'
       value: 
-      objectReference: {fileID: 11400000, guid: c5a2017e561a0b34a96c9f53ba778213, type: 2}
+      objectReference: {fileID: 11400000, guid: c849383aa2a007d4fa10c225b6667ba1, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[6]'
       value: 
-      objectReference: {fileID: 11400000, guid: 8e77ed464016d3a44a0c03fb46d3f0e7, type: 2}
+      objectReference: {fileID: 11400000, guid: f4a33929f065f26449297c5a4b2b827a, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[7]'
       value: 
-      objectReference: {fileID: 11400000, guid: 0e42b6ac762798144a795d7bdf9390f3, type: 2}
+      objectReference: {fileID: 11400000, guid: b3b3eeff9f1fe85418056a159260e287, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[8]'
       value: 
-      objectReference: {fileID: 11400000, guid: c56ed51987bef9a47820c5f7d36253f4, type: 2}
+      objectReference: {fileID: 11400000, guid: a2709226ab1a7ff4a8dd9f10c028118e, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[9]'
       value: 
-      objectReference: {fileID: 11400000, guid: d15118914922d97408c86dcd71169d53, type: 2}
+      objectReference: {fileID: 11400000, guid: 4315744ca3814b14eb7a06834fa0c852, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[10]'
       value: 
-      objectReference: {fileID: 11400000, guid: dab4ecbd7d0b4c7408af0de973d2becf, type: 2}
+      objectReference: {fileID: 11400000, guid: ab3ad8194c76ed34c8b737a6323c9b6c, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[11]'
       value: 

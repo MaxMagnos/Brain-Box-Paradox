@@ -476,7 +476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
       propertyPath: syncRateDecay
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
       propertyPath: puzzles.Array.size
