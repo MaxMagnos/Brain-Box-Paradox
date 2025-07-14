@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1017585839117951180, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2872128173204553246, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2872128173204553246, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2872128173204553246, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.9
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2872128173204553246, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
       propertyPath: m_LocalPosition.x
@@ -75,8 +75,45 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3211077493520852132, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7051759114890796000}
+    - targetCorrespondingSourceObject: {fileID: 3211077493520852132, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3055844752119018598}
   m_SourcePrefab: {fileID: 100100000, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
+--- !u!1 &1184716929241123018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3211077493520852132, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
+  m_PrefabInstance: {fileID: 4386783331107269742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7051759114890796000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184716929241123018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d6e49a6c88bcf46aa93a43ecd38806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3055844752119018598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184716929241123018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f4d37eeefafc54bb9fadb1899140d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredID: 4
+  animator: {fileID: 0}
 --- !u!4 &1962203198580019824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2872128173204553246, guid: e9acbf2fc840c204c98a3afc98208588, type: 3}
@@ -104,15 +141,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.12
+      value: -2.18
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.18
+      value: 3.876
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.26
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -158,7 +195,8 @@ PrefabInstance:
       propertyPath: requiredID
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5721610033358423454, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4306850054503932161, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
     m_AddedGameObjects:

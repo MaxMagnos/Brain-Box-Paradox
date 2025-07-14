@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalRotation.z
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3677233456353930385, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -68,7 +68,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouth Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5721610033358423454, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4306850054503932161, guid: 6f3d5e26a0da3e54c83086a0801bc15a, type: 3}
     m_AddedGameObjects:
@@ -161,6 +162,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6964624735189385034, guid: ca8051cf1b16f5a4da155a3df259b07f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 301828069358362777}
+    - targetCorrespondingSourceObject: {fileID: 6964624735189385034, guid: ca8051cf1b16f5a4da155a3df259b07f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1260405231059581460}
   m_SourcePrefab: {fileID: 100100000, guid: ca8051cf1b16f5a4da155a3df259b07f, type: 3}
 --- !u!4 &139008065106810558 stripped
 Transform:
@@ -184,3 +188,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a949663f474e7459da13964845ea73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1260405231059581460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767313662274391044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f4d37eeefafc54bb9fadb1899140d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredID: 3
+  animator: {fileID: 0}

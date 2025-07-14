@@ -35,7 +35,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: HatScrewBulb
+    m_ConditionEvent: PlayScrew
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2114591253017328206}
@@ -46,8 +46,8 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0.02
   m_ExitTime: 0.0000000065053114
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -86,7 +86,7 @@ AnimatorController:
   m_Name: Hat_Animator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: HatScrewBulb
+  - m_Name: PlayScrew
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
