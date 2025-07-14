@@ -286,6 +286,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606979868063118397, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bfb463be64b9781469748c6eb3112880, type: 2}
+    - target: {fileID: 2606979868063118397, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4635313622481303334, guid: bfb463be64b9781469748c6eb3112880, type: 2}
+    - target: {fileID: 7196053106356261305, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bfb463be64b9781469748c6eb3112880, type: 2}
+    - target: {fileID: 7196053106356261305, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4635313622481303334, guid: bfb463be64b9781469748c6eb3112880, type: 2}
+    - target: {fileID: 9184602453848032706, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_margin.z
+      value: -87.587814
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184602453848032706, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bfb463be64b9781469748c6eb3112880, type: 2}
+    - target: {fileID: 9184602453848032706, guid: 3d6c1f0210f6b3b4bb7b599b69d3d86f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4635313622481303334, guid: bfb463be64b9781469748c6eb3112880, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

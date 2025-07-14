@@ -1129,7 +1129,7 @@ MonoBehaviour:
   lowestSubdivLevelOverride: 0
   highestSubdivLevelOverride: 7
   overridesSubdivLevels: 0
-  mightNeedRebaking: 1
+  mightNeedRebaking: 0
   cachedTransform:
     e00: 1
     e01: 0
@@ -1535,7 +1535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2071.8408
+      value: -2071.98
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_AnchoredPosition.y

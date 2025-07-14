@@ -658,84 +658,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
   m_PrefabInstance: {fileID: 1030781884}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &775896837
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 878899230}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 84.881325
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 32.41
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -113.01
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-      propertyPath: m_Name
-      value: decor_exitDoor (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
---- !u!4 &775896838 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 74b78c47f5673ab43bb85b5f8aff4a29, type: 3}
-  m_PrefabInstance: {fileID: 775896837}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &805094458
 GameObject:
   m_ObjectHideFlags: 1
@@ -854,7 +776,6 @@ Transform:
   - {fileID: 887098422}
   - {fileID: 1055601484}
   - {fileID: 1549999045}
-  - {fileID: 775896838}
   - {fileID: 1198063371}
   - {fileID: 711445727}
   m_Father: {fileID: 416481417}
@@ -1400,6 +1321,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 878899230}
     m_Modifications:
+    - target: {fileID: 3321929435756537664, guid: 3d74d1890f027554d9f63ec531feef7a, type: 3}
+      propertyPath: floatDistance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6326982553791883114, guid: 3d74d1890f027554d9f63ec531feef7a, type: 3}
       propertyPath: m_Name
       value: prop_clock5 (1)
