@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.32500458
+      value: -3.5544972
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: -0.5291805
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.42609072
+      value: -1.7701766
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalRotation.w
@@ -38,15 +38,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8518809119826446585, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 146096266497576496, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -79,6 +83,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
       propertyPath: m_Name
       value: decor_wooden_chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159704098495976803, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093815432056460537, guid: 09f008ca3b99f774c99d6e0befb52601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
