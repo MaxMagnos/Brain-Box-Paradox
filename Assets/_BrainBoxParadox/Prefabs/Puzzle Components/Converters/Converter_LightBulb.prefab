@@ -12,17 +12,21 @@ PrefabInstance:
       propertyPath: convertableID
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4042102414282656463, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
+      propertyPath: 'iconMaterials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 288cbdd01d0af4145ac2b0d516ac7923, type: 2}
     - target: {fileID: 8508734723820585943, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.34
+      value: 3.3546495
       objectReference: {fileID: 0}
     - target: {fileID: 8508734723820585943, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.18
+      value: 2.252
       objectReference: {fileID: 0}
     - target: {fileID: 8508734723820585943, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.926
+      value: -7.4748735
       objectReference: {fileID: 0}
     - target: {fileID: 8508734723820585943, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8715472376237492282, guid: aa589b2fa05876e4aab3b3b201f047e3, type: 3}
       propertyPath: m_Name
-      value: Converter_LightOrb 1
+      value: Converter_LightBulb
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
