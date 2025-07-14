@@ -1493,17 +1493,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: CalibrationBar Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 619026261993992240, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.06
+      value: 0.0462114
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.06
+      value: 0.0462114
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.06
+      value: 0.0462114
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1511,11 +1515,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2074.9
+      value: -2076.3386
       objectReference: {fileID: 0}
     - target: {fileID: 1235553720042711291, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1069.19
+      value: -1068.38
       objectReference: {fileID: 0}
     - target: {fileID: 4564906557183733019, guid: bf30a6e381f520641a6ddec74d1d6b33, type: 3}
       propertyPath: m_Pivot.x
