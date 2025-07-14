@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b01b926caa4cd141bf606f59dc06db4, type: 3}
-  m_Name: PuzzleData 12
+  m_Name: PuzzleData 13
   m_EditorClassIdentifier: 
   puzzleObjects:
-  - {fileID: 7287253070155148731, guid: a0554e1863390ac418672ae423f3608f, type: 3}
+  - {fileID: 5191310647785267475, guid: 5a13f1cd9e4e0c3438776eebc39c4fa5, type: 3}
   - {fileID: 7287253070155148731, guid: d484c63c0ffd4f34d9d1ad5aa4c9575d, type: 3}
-  - {fileID: 1492365110766606813, guid: 60a631dfbfe4e7c4abeb21b9c247033e, type: 3}
+  - {fileID: 7287253070155148731, guid: a0554e1863390ac418672ae423f3608f, type: 3}
   - {fileID: 8782683903702065937, guid: be017ec0d944ad34d83ae69044836946, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PuzzleData 10
   m_EditorClassIdentifier: 
   puzzleObjects:
-  - {fileID: 3352870330559955488, guid: a96708fd91598694e8be0c0d7d87f16e, type: 3}
   - {fileID: 8933409488527900070, guid: d7fc313c8c7b22b4790bcc6908e951c7, type: 3}
+  - {fileID: 3352870330559955488, guid: a96708fd91598694e8be0c0d7d87f16e, type: 3}

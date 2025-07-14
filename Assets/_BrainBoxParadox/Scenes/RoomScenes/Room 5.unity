@@ -474,6 +474,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: puzzles.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 607371c9fbac4c142b56fe04d848eb6c, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c201f8573015e9a43b5927806cd141c4, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: bd12e536c3974c94c88cce652b502b2f, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: e8c24646e9f12a94683927c4c8682df0, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d76bdf3c592b0624e880b91cb620b38d, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c849383aa2a007d4fa10c225b6667ba1, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: f4a33929f065f26449297c5a4b2b827a, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: b3b3eeff9f1fe85418056a159260e287, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a2709226ab1a7ff4a8dd9f10c028118e, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[9]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 4315744ca3814b14eb7a06834fa0c852, type: 2}
+    - target: {fileID: 2759713053081236180, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
+      propertyPath: 'puzzles.Array.data[10]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ab3ad8194c76ed34c8b737a6323c9b6c, type: 2}
     - target: {fileID: 5317395822593086258, guid: 0fe6e08f1fc65a54ba9a87ce39867a7a, type: 3}
       propertyPath: m_Name
       value: RoomSyncHandler 5 Variant
@@ -641,8 +689,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1828385342}
   - {fileID: 249314834}
+  - {fileID: 1828385342}
   m_Father: {fileID: 416481417}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &878899229
@@ -1642,6 +1690,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 878899230}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7db7cf08e851c1245b0f571fec022667, type: 2}
+    - target: {fileID: -5754084199372789682, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4068373912626513877, guid: 8963107fc69a5424aa9d3c4ad46f4db6, type: 3}
     - target: {fileID: -8679921383154817045, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -1726,14 +1782,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7db7cf08e851c1245b0f571fec022667, type: 2}
-    - target: {fileID: -5754084199372789682, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4068373912626513877, guid: 8963107fc69a5424aa9d3c4ad46f4db6, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

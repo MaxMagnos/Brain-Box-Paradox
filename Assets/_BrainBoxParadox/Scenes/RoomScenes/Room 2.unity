@@ -3492,9 +3492,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 1434294717}
     m_Modifications:
     - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
+      propertyPath: syncRateDecay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
       propertyPath: 'puzzles.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: c506199acb49aec47b68d9cdd51baf19, type: 2}
+      objectReference: {fileID: 11400000, guid: ac9f42e7ffc0d9b4cbaad6ee42294288, type: 2}
     - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
       propertyPath: 'puzzles.Array.data[1]'
       value: 

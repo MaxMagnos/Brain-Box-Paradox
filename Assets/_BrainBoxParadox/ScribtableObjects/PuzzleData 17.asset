@@ -15,5 +15,4 @@ MonoBehaviour:
   puzzleObjects:
   - {fileID: 4367831376428476187, guid: 1c7e575cce26170429de3466a807b794, type: 3}
   - {fileID: 7287253070155148731, guid: a4d1d8566e602e64fb77d79bbf7d720e, type: 3}
-  - {fileID: 5191310647785267475, guid: 5a13f1cd9e4e0c3438776eebc39c4fa5, type: 3}
   - {fileID: 5805954162513598380, guid: a1011e18690d9084199473b1232961ba, type: 3}

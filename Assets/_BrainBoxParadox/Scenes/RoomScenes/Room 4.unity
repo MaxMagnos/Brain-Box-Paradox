@@ -5520,37 +5520,85 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: syncRateDecay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: puzzles.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 801ac6f130767224d9c9074ca43cbfe4, type: 2}
+      objectReference: {fileID: 11400000, guid: ab1661b29ec45634bab526d6f6a8b8d6, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 310bd863319ce0d4b9a0131b0f129580, type: 2}
+      objectReference: {fileID: 11400000, guid: 607371c9fbac4c142b56fe04d848eb6c, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: b68cc247415b6d146935ab11bd801f47, type: 2}
+      objectReference: {fileID: 11400000, guid: 58af58d7ba9ad794a92edddb33413441, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 6ca45dd80a5994d4a968b4605bcc46ac, type: 2}
+      objectReference: {fileID: 11400000, guid: 310bd863319ce0d4b9a0131b0f129580, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[4]'
       value: 
-      objectReference: {fileID: 11400000, guid: c201f8573015e9a43b5927806cd141c4, type: 2}
+      objectReference: {fileID: 11400000, guid: b68cc247415b6d146935ab11bd801f47, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[5]'
       value: 
-      objectReference: {fileID: 11400000, guid: 4620d1a5ff5a4ac4ca6903fe1cc4596e, type: 2}
+      objectReference: {fileID: 11400000, guid: c201f8573015e9a43b5927806cd141c4, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[6]'
       value: 
-      objectReference: {fileID: 11400000, guid: efb2e91f4c02ed3458e7ee1935e9cbf7, type: 2}
+      objectReference: {fileID: 11400000, guid: 4620d1a5ff5a4ac4ca6903fe1cc4596e, type: 2}
     - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: 'puzzles.Array.data[7]'
       value: 
+      objectReference: {fileID: 11400000, guid: efb2e91f4c02ed3458e7ee1935e9cbf7, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: e8c24646e9f12a94683927c4c8682df0, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[9]'
+      value: 
       objectReference: {fileID: 11400000, guid: 8f656166cf763e047b6b3dec3ad204aa, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[10]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 314d281add4a97b4e90f8b23cdbb36f7, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[11]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8026fe745d8658a4991ac837a27d7c1e, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[12]'
+      value: 
+      objectReference: {fileID: 11400000, guid: f4a33929f065f26449297c5a4b2b827a, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[13]'
+      value: 
+      objectReference: {fileID: 11400000, guid: b3b3eeff9f1fe85418056a159260e287, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[14]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ed9690a69c9af24fa3008259059b73f, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[15]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 53d3a8c609225bd4fb3bfd75589f5928, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[16]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ab3ad8194c76ed34c8b737a6323c9b6c, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[17]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ab3ad8194c76ed34c8b737a6323c9b6c, type: 2}
     - target: {fileID: 5317395822593086258, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: m_Name
       value: RoomSyncHandler 4 Variant

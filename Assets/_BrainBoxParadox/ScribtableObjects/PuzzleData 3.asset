@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PuzzleData 3
   m_EditorClassIdentifier: 
   puzzleObjects:
-  - {fileID: 8782683903702065937, guid: be017ec0d944ad34d83ae69044836946, type: 3}
   - {fileID: 4367831376428476187, guid: 1c7e575cce26170429de3466a807b794, type: 3}
   - {fileID: 7287253070155148731, guid: a0554e1863390ac418672ae423f3608f, type: 3}
+  - {fileID: 8782683903702065937, guid: be017ec0d944ad34d83ae69044836946, type: 3}
