@@ -3491,6 +3491,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1434294717}
     m_Modifications:
+    - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
+      propertyPath: syncRateDecay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
+      propertyPath: 'puzzles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9f42e7ffc0d9b4cbaad6ee42294288, type: 2}
+    - target: {fileID: 834945375860816685, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
+      propertyPath: 'puzzles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a66793a962de15f45aaf4ca873cb0c32, type: 2}
     - target: {fileID: 4561647964288802392, guid: 34a77cc79b851e941aacf831c0783eaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9337919
