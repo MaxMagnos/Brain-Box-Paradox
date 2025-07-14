@@ -49,6 +49,10 @@ public class Converter : MonoBehaviour
             InputHandler.Ins.morphSliderValue = convertableID;
             morphHandler.UnlockMorphableObject();
         }
+        else if (currentShapeID == 1)
+        {
+            morphHandler.UnlockMorphableObject();
+        }
         else if (currentShapeID != convertableID)
         {
             return;
