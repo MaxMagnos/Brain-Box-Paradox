@@ -13494,6 +13494,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: puzzles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: 'puzzles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a66793a962de15f45aaf4ca873cb0c32, type: 2}
+    - target: {fileID: 2759713053081236180, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: 'puzzles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ab1661b29ec45634bab526d6f6a8b8d6, type: 2}
+    - target: {fileID: 2759713053081236180, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: 'puzzles.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c506199acb49aec47b68d9cdd51baf19, type: 2}
+    - target: {fileID: 2759713053081236180, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: 'puzzles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 801ac6f130767224d9c9074ca43cbfe4, type: 2}
+    - target: {fileID: 2759713053081236180, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: 'puzzles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5317395822593086258, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
       propertyPath: m_Name
       value: RoomSyncHandler 3 Variant

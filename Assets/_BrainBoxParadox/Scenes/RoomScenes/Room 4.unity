@@ -2906,6 +2906,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1296339767}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7db7cf08e851c1245b0f571fec022667, type: 2}
+    - target: {fileID: -5754084199372789682, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4068373912626513877, guid: 8963107fc69a5424aa9d3c4ad46f4db6, type: 3}
     - target: {fileID: -8679921383154817045, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40.1
@@ -2990,14 +2998,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7db7cf08e851c1245b0f571fec022667, type: 2}
-    - target: {fileID: -5754084199372789682, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4068373912626513877, guid: 8963107fc69a5424aa9d3c4ad46f4db6, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4205,6 +4205,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1296339767}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7db7cf08e851c1245b0f571fec022667, type: 2}
+    - target: {fileID: -5754084199372789682, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4068373912626513877, guid: 8963107fc69a5424aa9d3c4ad46f4db6, type: 3}
     - target: {fileID: -8679921383154817045, guid: cebe725ee6325d540b3ebc8fa34f7d3f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -4289,14 +4297,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7db7cf08e851c1245b0f571fec022667, type: 2}
-    - target: {fileID: -5754084199372789682, guid: df4d7cb3bcd083e4f990ece44d3ab8c9, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4068373912626513877, guid: 8963107fc69a5424aa9d3c4ad46f4db6, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5519,6 +5519,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 801ac6f130767224d9c9074ca43cbfe4, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 310bd863319ce0d4b9a0131b0f129580, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: b68cc247415b6d146935ab11bd801f47, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ca45dd80a5994d4a968b4605bcc46ac, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c201f8573015e9a43b5927806cd141c4, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 4620d1a5ff5a4ac4ca6903fe1cc4596e, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: efb2e91f4c02ed3458e7ee1935e9cbf7, type: 2}
+    - target: {fileID: 2759713053081236180, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
+      propertyPath: 'puzzles.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f656166cf763e047b6b3dec3ad204aa, type: 2}
     - target: {fileID: 5317395822593086258, guid: df6c92f7dcecf5d489432e81a228216c, type: 3}
       propertyPath: m_Name
       value: RoomSyncHandler 4 Variant
