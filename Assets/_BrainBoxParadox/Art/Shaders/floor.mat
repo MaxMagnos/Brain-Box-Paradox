@@ -116,7 +116,9 @@ Material:
     - _alpha: 0
     - _flicker_speed: 2
     - _glitch_scroll_speed: 3
-    - _normalmap_strngth: 0.88
+    - _metallic: 0.91
+    - _normalmap_strngth: 0.16
+    - _smoothness: 0.35
     - _texScrolling: 0
     m_Colors:
     - _BColor: {r: 1, g: 0.031372547, b: 0.84823763, a: 1}

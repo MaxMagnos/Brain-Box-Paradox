@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598e2d32e2c7b0c418e030c3236d663a, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -365,19 +365,19 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   threshold:
     m_OverrideState: 1
-    m_Value: 1.48
+    m_Value: 0.73
   intensity:
     m_OverrideState: 1
-    m_Value: 0.06
+    m_Value: 0.79
   scatter:
     m_OverrideState: 1
-    m_Value: 0.28
+    m_Value: 0.127
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.64367193, b: 0.5424528, a: 1}
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -392,7 +392,7 @@ MonoBehaviour:
     m_Value: 2
   m_HighQualityPrefiltering:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   m_HighQualityFiltering:
     m_OverrideState: 1
     m_Value: 1
@@ -584,7 +584,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 13.399191
+    m_Value: 14.003459
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9008a067f4d626c4d8bc4bc48f04bb89, type: 3}
   m_Name: ScreenSpaceAmbientOcclusion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   quality:
     m_OverrideState: 0
     m_Value: 3
@@ -776,13 +776,13 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 1.03
+    m_Value: 2.25
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.119
   radius:
     m_OverrideState: 1
-    m_Value: 0.74
+    m_Value: 1.39
   spatialBilateralAggressiveness:
     m_OverrideState: 1
     m_Value: 0.15

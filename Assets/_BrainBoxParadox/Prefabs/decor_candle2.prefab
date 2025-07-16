@@ -195,15 +195,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.852574
+      value: -18.349491
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0014360249
+      value: -14.356
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.3452425
+      value: 9.358474
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -264,6 +264,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 9184009371012137954}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 696321396098095509}
     - targetCorrespondingSourceObject: {fileID: -752583241013944990, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6453113368421450025}
@@ -300,6 +303,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &5974022704269241230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}
+  m_PrefabInstance: {fileID: 6784272816454440671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &696321396098095509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974022704269241230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8334ac29c1752d4f811e01df6180ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatDistance: 0
+  floatDuration: 2
+  easeType: 4
 --- !u!4 &6461589403812131124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a3733f1ebeb31845ab20399fa17e30f, type: 3}

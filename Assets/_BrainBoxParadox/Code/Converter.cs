@@ -40,22 +40,26 @@ public class Converter : MonoBehaviour
 
     private void Convert()
     {
-        morphHandler = snapPoint.GetOccupyingObject().GetComponent<MorphHandler>();
+        morphHandler = snapPoint.GetOccupyingObject()?.GetComponent<MorphHandler>();
         if (!morphHandler) return;
         
         var currentShapeID = morphHandler.GetShapeID();
+        
         if (currentShapeID == 0)
         {
             InputHandler.Ins.morphSliderValue = convertableID;
             morphHandler.UnlockMorphableObject();
         }
-        else if (currentShapeID != convertableID)
+        else if (currentShapeID == convertableID)
         {
-            return;
-        }
-        else
-        {
-            morphHandler.ChangeShape(0);
+            if (currentShapeID == 1)
+            {
+                morphHandler.UnlockMorphableObject();
+            }
+            else
+            {
+                morphHandler.ChangeShape(0);
+            }
         }
     }
     

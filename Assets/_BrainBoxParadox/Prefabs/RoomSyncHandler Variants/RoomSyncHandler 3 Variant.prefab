@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 2222179455714407487}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.785, y: 4.905, z: -13.588}
+  m_LocalPosition: {x: 3.49, y: 4.905, z: -10.957}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -180,7 +180,7 @@ Transform:
   m_GameObject: {fileID: 3020913282535102884}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.933, y: 8.857, z: -11.06}
+  m_LocalPosition: {x: 4.58, y: 8.857, z: -11.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -397,7 +397,7 @@ Transform:
   m_GameObject: {fileID: 6900722548345285523}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.165, y: 2.296, z: -7.02}
+  m_LocalPosition: {x: 1.63, y: 2.296, z: -8.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -428,7 +428,7 @@ Transform:
   m_GameObject: {fileID: 8516256932543619412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.99, y: 7.22, z: -7.77}
+  m_LocalPosition: {x: 4.372, y: 7.22, z: -6.965}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -459,7 +459,7 @@ Transform:
   m_GameObject: {fileID: 8517487250162469250}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.57, y: 4.62, z: -45.676003}
+  m_LocalPosition: {x: 5.57, y: 4.62, z: -46.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -474,25 +474,49 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: syncRateDecay
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: puzzles.Array.size
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: af8d1538edd1df74d9e3e796ff396f88, type: 2}
+      objectReference: {fileID: 11400000, guid: ab1661b29ec45634bab526d6f6a8b8d6, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 5f60a51ef5585014ca520605d4e156ec, type: 2}
+      objectReference: {fileID: 11400000, guid: 58af58d7ba9ad794a92edddb33413441, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: 13b0b1da05fb3344a8688837dfb0f1ab, type: 2}
+      objectReference: {fileID: 11400000, guid: 6ca45dd80a5994d4a968b4605bcc46ac, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: a1424b9db98fe814591d55096da7edad, type: 2}
+      objectReference: {fileID: 11400000, guid: 5f950fb66b9e1f24087eea0cdf6142e7, type: 2}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: 'puzzles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: bd12e536c3974c94c88cce652b502b2f, type: 2}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: 'puzzles.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 314d281add4a97b4e90f8b23cdbb36f7, type: 2}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: 'puzzles.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 367049e08d0432546bfedd94c3253ae4, type: 2}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: 'puzzles.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ed9690a69c9af24fa3008259059b73f, type: 2}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: 'puzzles.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 53d3a8c609225bd4fb3bfd75589f5928, type: 2}
     - target: {fileID: 4196066932901685333, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9337919
