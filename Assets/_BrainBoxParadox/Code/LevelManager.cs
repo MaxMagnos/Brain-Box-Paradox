@@ -63,6 +63,12 @@ public class LevelManager : MonoBehaviour
         {
             LoadNextLevel();
         }
+
+        if (Input.GetKeyDown(KeyCode.F12))
+        {
+            currentLevelIndex = 0;
+            LoadNextLevel();
+        }
     }
 
     /// <summary>

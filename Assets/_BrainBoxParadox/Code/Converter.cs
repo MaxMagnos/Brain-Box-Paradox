@@ -61,6 +61,9 @@ public class Converter : MonoBehaviour
                 morphHandler.ChangeShape(0);
             }
         }
+
+        PopEffect popEffect = GetComponent<PopEffect>();
+        popEffect.DestroyWithPop();
     }
     
 }

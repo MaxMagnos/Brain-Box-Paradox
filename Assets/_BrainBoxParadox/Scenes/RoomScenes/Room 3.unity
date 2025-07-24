@@ -13546,6 +13546,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomSyncHandler 3 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8190673616572798755, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190673616572798755, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190673616572798755, guid: cbb0313584103f541a55e6e363481bcf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -46.42
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17472,7 +17484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098813456472700695, guid: add123bf2a0384148aad75b26fcbcf20, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.953
+      value: 1.173
       objectReference: {fileID: 0}
     - target: {fileID: 6098813456472700695, guid: add123bf2a0384148aad75b26fcbcf20, type: 3}
       propertyPath: m_LocalPosition.z

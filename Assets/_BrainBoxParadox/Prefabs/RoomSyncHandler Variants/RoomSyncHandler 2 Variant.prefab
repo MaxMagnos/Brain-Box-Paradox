@@ -506,7 +506,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: syncRateDecay
-      value: 0.6
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: syncRateIncrease
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[0]'

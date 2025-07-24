@@ -246,6 +246,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1981319091921551595, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: ff4403efaa0352e4aab51f9d25fa0247, type: 2}
     - target: {fileID: 5758981725529285520, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.726516
@@ -285,6 +289,30 @@ PrefabInstance:
     - target: {fileID: 5758981725529285520, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215884853511025190, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215884853511025190, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215884853511025190, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385921940395525141, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: soundClips.Array.size
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385921940395525141, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: soundClips.Array.data[42].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: aee01ee31466e9c4d8cc169c874b2c19, type: 3}
+    - target: {fileID: 6385921940395525141, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
+      propertyPath: soundClips.Array.data[42].name
+      value: Music1
       objectReference: {fileID: 0}
     - target: {fileID: 6781999987800729773, guid: 76bea48d73d67744d9081998ff95758b, type: 3}
       propertyPath: m_Name
@@ -361,14 +389,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_XR_Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 3775415004493055356, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7253933934457512439, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: grabRange
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7253933934457512439, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: grabRadius
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253933934457512439, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 225262131}
+    - target: {fileID: 7253933934457512439, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: grabbedDistance
+      value: 3.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8673843519780566324, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: clearColorMode
       value: 1

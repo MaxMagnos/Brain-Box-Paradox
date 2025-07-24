@@ -105,7 +105,7 @@ public class RoomSyncHandler : MonoBehaviour
         if (syncRate > 100)
         {
             calibrationTime += Time.deltaTime;
-            if (calibrationTime >= 60f)
+            if (calibrationTime >= 50f)
             {
                 StartCoroutine(CalibrationComplete());
             }

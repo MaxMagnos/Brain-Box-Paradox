@@ -475,11 +475,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: syncRateDecay
-      value: 0.7
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
+      propertyPath: syncRateIncrease
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: puzzles.Array.size
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[0]'
@@ -532,23 +536,23 @@ PrefabInstance:
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[12]'
       value: 
-      objectReference: {fileID: 11400000, guid: f4a33929f065f26449297c5a4b2b827a, type: 2}
+      objectReference: {fileID: 11400000, guid: 3ed9690a69c9af24fa3008259059b73f, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[13]'
       value: 
-      objectReference: {fileID: 11400000, guid: b3b3eeff9f1fe85418056a159260e287, type: 2}
+      objectReference: {fileID: 11400000, guid: 53d3a8c609225bd4fb3bfd75589f5928, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[14]'
       value: 
-      objectReference: {fileID: 11400000, guid: 3ed9690a69c9af24fa3008259059b73f, type: 2}
+      objectReference: {fileID: 11400000, guid: ab3ad8194c76ed34c8b737a6323c9b6c, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[15]'
       value: 
-      objectReference: {fileID: 11400000, guid: 53d3a8c609225bd4fb3bfd75589f5928, type: 2}
+      objectReference: {fileID: 11400000, guid: b3b3eeff9f1fe85418056a159260e287, type: 2}
     - target: {fileID: 1072705973174832416, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: 'puzzles.Array.data[16]'
       value: 
-      objectReference: {fileID: 11400000, guid: ab3ad8194c76ed34c8b737a6323c9b6c, type: 2}
+      objectReference: {fileID: 11400000, guid: b3b3eeff9f1fe85418056a159260e287, type: 2}
     - target: {fileID: 4196066932901685333, guid: 302f8bd827581994ebb4b43ee6b7b0b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9337919
