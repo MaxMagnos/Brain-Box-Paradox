@@ -328,6 +328,26 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 3128398638722209960, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
   m_PrefabInstance: {fileID: 857832774}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &283309051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6431795780770587530, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+  m_PrefabInstance: {fileID: 857832774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &283309057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283309051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b62fff5097a9541a2da3611f305cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSpeed: 1
+  verticalClamp: 90
+  playerBody: {fileID: 0}
 --- !u!1 &475225615
 GameObject:
   m_ObjectHideFlags: 1
@@ -388,6 +408,14 @@ PrefabInstance:
     - target: {fileID: 1209581479652878166, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: m_Name
       value: Player_XR_Origin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406593274292593289, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439712510634705418, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3775415004493055356, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
       propertyPath: m_RequestedTrackingOriginMode
@@ -468,7 +496,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6431795780770587530, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 283309057}
   m_SourcePrefab: {fileID: 100100000, guid: bdf4baae73e14f74aa8cda73db69e19b, type: 3}
 --- !u!1 &1325508123
 GameObject:

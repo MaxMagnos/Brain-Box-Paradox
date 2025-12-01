@@ -157,7 +157,7 @@ public class LevelManager : MonoBehaviour
             while (passedTime < duration)
             {
                 fadeCanvasGroup.alpha = fadeCurve.Evaluate(passedTime / duration);
-                Debug.Log("CanvasGroup Alpha set to: " + fadeCanvasGroup.alpha);
+                //Debug.Log("CanvasGroup Alpha set to: " + fadeCanvasGroup.alpha);
                 passedTime += Time.deltaTime;
                 yield return null;
             }
