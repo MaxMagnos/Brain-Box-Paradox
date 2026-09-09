@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8698658284209474897
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (8)_{-8698658284209474897}
+  m_AudioClip: {fileID: 8300000, guid: 7792990b8e92aad43a0cd09f1851ac18, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7822869573571371155
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (5)_{-7822869573571371155}
+  m_AudioClip: {fileID: 8300000, guid: e3a5bbb522488254b939e21159deef6d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5106099428422688285
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (1)_{-5106099428422688285}
+  m_AudioClip: {fileID: 8300000, guid: 696ad9316b7381f43bfd698500273bf3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4990377208228204541
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (9)_{-4990377208228204541}
+  m_AudioClip: {fileID: 8300000, guid: 276ce3dea7bb23847ac3046f49cc999a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4917156235612989055
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (3)_{-4917156235612989055}
+  m_AudioClip: {fileID: 8300000, guid: 77379efc37fa7d0459e01bd850f79547, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1869343948500355036
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (4)_{1869343948500355036}
+  m_AudioClip: {fileID: 8300000, guid: 0351a0d8b1831d845a5070abca798c66, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5141944467230055948
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (2)_{5141944467230055948}
+  m_AudioClip: {fileID: 8300000, guid: 66d42ea1bb07f9d46b83195c740a846a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5689661615842295861
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonVR_Tutorial_Voiceover (6)_{5689661615842295861}
+  m_AudioClip: {fileID: 8300000, guid: eff3e6094bb26034bb6ea7089681109f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TutorialNoVRAudioContainer
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -5106099428422688285}
+  - {fileID: 5141944467230055948}
+  - {fileID: -4917156235612989055}
+  - {fileID: 1869343948500355036}
+  - {fileID: -7822869573571371155}
+  - {fileID: 5689661615842295861}
+  - {fileID: -8698658284209474897}
+  - {fileID: -4990377208228204541}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 0
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

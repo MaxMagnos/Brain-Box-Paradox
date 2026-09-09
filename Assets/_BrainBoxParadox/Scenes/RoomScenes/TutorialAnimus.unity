@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1fbb15bf92b84f40a1eb030765b5afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Version: 3
   parameters:
     albedo: {r: 0.16509432, g: 0.5850939, b: 1, a: 1}
     meanFreePath: 2.05
@@ -187,7 +188,6 @@ MonoBehaviour:
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
-  m_Version: 3
 --- !u!4 &339665925
 Transform:
   m_ObjectHideFlags: 0
@@ -5475,6 +5475,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665362521519309933, guid: e7696bc74b302ed46a2608c730481bc3, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: 8fdfe265bd5eb0a428229e5aa61650bc, type: 2}
     - target: {fileID: 1457537333816939240, guid: e7696bc74b302ed46a2608c730481bc3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.131
@@ -5599,7 +5603,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ff4403efaa0352e4aab51f9d25fa0247, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 91cabadcf747b344d8dc0349fa4ed456, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 91cabadcf747b344d8dc0349fa4ed456, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -6060,6 +6064,11 @@ MonoBehaviour:
   m_LightUnit: 0
   m_LuxAtDistance: 1
   m_Intensity: 0
+  m_Version: 13
+  m_ObsoleteShadowResolutionTier: 1
+  m_ObsoleteUseShadowQualitySettings: 0
+  m_ObsoleteCustomShadowResolution: 512
+  m_ObsoleteContactShadows: 0
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
@@ -6178,11 +6187,6 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
-  m_Version: 13
-  m_ObsoleteShadowResolutionTier: 1
-  m_ObsoleteUseShadowQualitySettings: 0
-  m_ObsoleteCustomShadowResolution: 512
-  m_ObsoleteContactShadows: 0
 --- !u!1001 &1619422761
 PrefabInstance:
   m_ObjectHideFlags: 0
